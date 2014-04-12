@@ -8,7 +8,8 @@
 import serial                                                                                                                                                 
 import sqlite3                                                                                                                                                
 import datetime         
-import threading                                                                                                                                      
+import threading      
+import messenger                                                                                                                                
 import paho.mqtt.client as mqtt
 from uuid import getnode as get_mac
 
@@ -45,41 +46,15 @@ def on_message(mqttc, obj, msg):
 	FILE.write("\t")
 	FILE.write(msg.payload)
 	FILE.write("\n")  
-	message = msg.topic.split("/")   
- 
-	#second list element is temp
-	action = message[5].rstrip()    
-	device = message[3]
-	args   = msg.payload
-   
+
 	if cmdACK == True:
-		
-		if device == "device":
-			device_id = message[4]
-			print LXP + "Device ID:", device_id
-			
-			if  action == "power":
-				print LXP + "Power:", args
-				
-			elif action == "onboardled":
-				
-				if args == "ON":
-					serial_port.write("I|0x11|0xA1|0x00|0x78,0x56,0x34,0x11|0x01|0x0010|0x01|0|--|U")
-					cmdACK = False	
-				elif args == "OFF":
-					serial_port.write("I|0x11|0xA0|0x00|0x78,0x56,0x34,0x11|0x01|0x0010|0x01|0|--|U")
-					cmdACK = False	
-				elif args == "TOGGLE":
-					serial_port.write("I|0x11|0xA3|0x00|0x78,0x56,0x34,0x11|0x01|0x0010|0x01|0|--|U")
-					cmdACK = False	
-				else:
-					print LXP + "MessageNotRecognized"
-			else:
-				print LXP + "CommandNotRecognized"
-						
-		elif device == "group":
-			group_id = message[4]
-			print LXP + "Group:", group_id
+		serialCMD = parse_message(msg.topic, msg.payload)
+
+		if  serialCMD.split()[0][0] != "I":
+			print LXP + serialCMD
+		else
+			serial_port.write(serialCMD);
+			cmdACK = False
 	else:
 		print LXP + "NoResponseFromAP"
 	
@@ -112,6 +87,8 @@ def handle_data(data):
 		elif cmdACK == True:
 			if command == "SEND" and status =="OK":
 				print APP + "CommandExecuted"
+			elif command == "DATA"
+			    print status
 
 def read_from_port(ser):
 	global connected
