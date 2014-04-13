@@ -1,5 +1,8 @@
 #!/usr/bin/python   
+import logging
 
+LXP = "LH > "
+APP = "AP > "
 
 def parse_message(topic, payload):
 
@@ -11,6 +14,11 @@ def parse_message(topic, payload):
 
 	tipoED = {'led': 1, 'curtain': 2, 'sensor': 3}
 
+	if tipoED.has_key(message[1]):
+			typ = tipoED[message[1]]
+	else:
+		return "DeviceNotSupported"
+
 	#print "0x%02X" % 1
 	cmd = 0
 	msg = 0
@@ -19,7 +27,6 @@ def parse_message(topic, payload):
 	ad2 = 0
 	ad3 = 0
 	ad4 = 0
-	typ = tipoED[message[1]]
 	grp = 0
 	lnk = 0
 	ack = 0
@@ -56,5 +63,6 @@ def parse_message(topic, payload):
 		grp = int(message[4])
 		#print LXP + "Group:", group_id
 
-	cmd2ap =  "I|0x%02X|0x%02X|0x%02X|0x%02X,0x%02X,0x%02X,0x%02X|0x%02X|0x%04X|0x%02X|0x%d|%02d|U" % (cmd,msg,arg,ad1,ad2,ad3,ad4,lnk,grp,typ,ack,add)
-	print cmd2ap
+	cmd2ap =  "I|0x%02X|0x%02X|0x%02X|0x%02X,0x%02X,0x%02X,0x%02X|0x%02X|0x%04X|0x%02X|%d|%02d|U" % (cmd,msg,arg,ad1,ad2,ad3,ad4,lnk,grp,typ,ack,add)
+	
+	return cmd2ap

@@ -9,13 +9,14 @@ import serial
 import sqlite3                                                                                                                                                
 import datetime         
 import threading      
-import messenger                                                                                                                                
+import messenger
+import logging                                                                                                                                
 import paho.mqtt.client as mqtt
 from uuid import getnode as get_mac
 
 serialdev = '/dev/ttyUSB0'
 broker    = "192.241.195.144"
-port      = 1883
+port      = 1883		
 connected = False
 mac = get_mac()
 
@@ -25,6 +26,9 @@ APP = "AP > "
 # Banderas para obtener ACKs que nos envie el AP
 cmdACK = True
 cmdDoneACK = True
+
+print LXP + "Creating log file" 
+logging.basicConfig(filename='logs/commander.log',format='%(asctime)s:%(levelname)s\t%(message)s', datefmt='%Y-%m-%d %H:%M:%S',level=logging.DEBUG)
 
 def on_connect(mqttc, obj, rc):
     if rc == 0:
@@ -36,27 +40,25 @@ def on_connect(mqttc, obj, rc):
 # Estructura del mensaje
 # linuxhub/type/subtype/device/device_id/action  arguments
 # linuxhub/type/subtype/group/number/action      arguments
-
         
 def on_message(mqttc, obj, msg):
 	
 	global cmdACK
-	print(LXP + msg.topic+" "+str(msg.qos)+" "+str(msg.payload))
-	FILE.write(msg.topic)
-	FILE.write("\t")
-	FILE.write(msg.payload)
-	FILE.write("\n")  
+	print(LXP + "{TPC: "+ msg.topic+"},{MSG: "+str(msg.payload)+"},{QoS: "+str(msg.qos)+"}")
+	logging.info('%s{TPC: %s},{MSG: %s},{QoS: %s}', LXP, msg.topic, msg.payload, msg.qos)
 
 	if cmdACK == True:
-		serialCMD = parse_message(msg.topic, msg.payload)
-
+		serialCMD = messenger.parse_message(msg.topic, msg.payload)
 		if  serialCMD.split()[0][0] != "I":
+			logging.warning('%s%s',LXP,serialCMD)
 			print LXP + serialCMD
-		else
+		else:
+			print LXP + serialCMD
 			serial_port.write(serialCMD);
 			cmdACK = False
 	else:
 		print LXP + "NoResponseFromAP"
+		logging.error("%sNoCommandACKFromAP",LXP)
 	
       
 def on_publish(mqttc, obj, mid):
@@ -75,27 +77,41 @@ def cleanup():
     mqttc.disconnect()
     
 def handle_data(data):
+
 	global cmdACK
-	if len(data)>2:
+
+	if len(data)>1:
+
 		fromAP = data.split("|")
+		fields = len(fromAP)
 		command = fromAP[0].rstrip()
-		status  = fromAP[1].rstrip()
+		if(fields>1):
+			status  = fromAP[1].rstrip()
+		if(fields>2):
+			argscmd = fromAP[2].rstrip()
+
 		if cmdACK == False:
 			if command == "CMD" and status =="OK":
+				logging.debug("%sCommandInProgress",APP)
 				print APP + "CommandInProgress"
 				cmdACK = True
 		elif cmdACK == True:
 			if command == "SEND" and status =="OK":
+				logging.debug("%sCommandExecuted",APP)
 				print APP + "CommandExecuted"
-			elif command == "DATA"
-			    print status
+			elif command == "DATA":
+			    print APP + status
+
+		if command == "INITIALIZING":
+				print APP + "Access point restarted."
+				cmdACK = True
+
+
 
 def read_from_port(ser):
 	global connected
 	while not connected:
-		#serin = ser.read() 
 		connected = True
-
         while True:
            reading = ser.readline().decode()
            handle_data(reading)
@@ -111,9 +127,6 @@ except:
     #unable to continue with no serial input
     raise SystemExit
 
-print LXP + "Creating log file" 
-filename = "loginfo.log"
-FILE = open(filename,"w")
 
 try:
 	print LXP + "MyID: ",mac
@@ -144,9 +157,7 @@ try:
 
 	while rc == 0:
 		rc = mqttc.loop()
-
-	print "rc:", rc    
-          
+        
      
 # handle list index error (i.e. assume no data received)
 except (IndexError):
