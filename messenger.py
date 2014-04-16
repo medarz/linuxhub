@@ -7,10 +7,14 @@ APP = "AP > "
 
 def parse_message(topic, payload):
     #         0         1   2   3    4      5     6
-    # 66619478619276L/user/led/dim/device/0x01/onboardled
+    # 66619478619276L/user/led/dim/device/0x01/onboardled   payload
 	message = topic.split("/")
+	command = message[6]
 	device  = message[4]
-	args    = payload
+	subtype = message[3]
+	edtype  = message[2]
+	payld   = payload.split(";")
+	args    = payld[0]
 
 	cmd = 0
 	msg = 0
@@ -25,24 +29,40 @@ def parse_message(topic, payload):
 	ack = 0
 	add = 0
 
-	if  message[2] != "system":
+    #ACK es el ultimo elemento del mensaje. Si hay mas de una opcion se asume debe venir
+    #  ON:ACK   
+    #  OFF:NOACK  
+    #  50:ARG1:ARG2:ACK  
+	payldsize = len(payld)
+	if  payldsize > 1:
+		withack = payld[payldsize-1]
+		if withack == "ACK":
+			ack = 1
 
-		if gv.tipoED.has_key(message[2]):
-				typ = gv.tipoED[message[2]]
+	if  edtype != "system":
+
+		if gv.tipoED.has_key(edtype):
+				typ = gv.tipoED[edtype]
 		else:
 			return "DeviceNotSupported"
 
-		#print "0x%02X" % 1
-
-		action  = message[6].rstrip()    
+		action  = command.rstrip()    
 
 		if device == "device":
 			lnk = int(message[5],0)
 
-			if message[2] == "led":
+			if edtype == "led":
+                
+                #Comandos comunes para todos los tipos de LED
 
+                #power ON/OFF  - compatible entre dimming y ON/OFF
 				if  action == "power":
 					print LXP + "Power:", args
+
+				elif action == "setgroup":
+					cmd=0x20  #SET_GROUP
+					msg=0x20  #SET_GROUP
+					grp=int(args,0)  # Debe llegar - 0x0001
 					
 				elif action == "onboardled":
 					
@@ -58,6 +78,13 @@ def parse_message(topic, payload):
 					else:
 						return "MessageNotRecognized"
 
+				elif action == "dimming":
+
+					if subtype == "dim":
+						cmd=0x11 #Send_byID
+						msg=0x50 #DIM_PWM
+					else:
+						return "CommandNotSupported"
 				else:
 					return "CommandNotRecognized"
 			else:
@@ -66,6 +93,8 @@ def parse_message(topic, payload):
 		elif device == "group":
 			grp = int(message[5])
 			#print LXP + "Group:", group_id
+
+	# ---------------- System Messages ------------------
 	else:
 		if message[3]=="config":
 			if message[5]=="request":
