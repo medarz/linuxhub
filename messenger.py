@@ -68,8 +68,10 @@ def parse_message(topic, payload):
 			#print LXP + "Group:", group_id
 	else:
 		if message[3]=="config":
-			if message[5]=="add":
-				cmd=0x81
+			if message[5]=="request":
+				cmd=0x81 
+			elif message[5]=="confirm":
+				return "IgnoredRequest (not for me)"
 			else:
 				return "CommandNotRecognized"
 	#Mensaje de sistema

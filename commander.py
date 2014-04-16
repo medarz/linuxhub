@@ -20,7 +20,7 @@ from uuid import getnode as get_mac
 def on_connect(mqttc, obj, rc):
     if rc == 0:
     #rc 0 successful connect
-        print LXP + "Connected to:" + public_broker
+        print LXP + "Connected to:" + gv.public_broker
     else:
         raise Exception
         
@@ -78,12 +78,6 @@ def read_from_port(ser):
 
 if __name__ == "__main__":
 
-	#####################################
-	#####################################
-	serialdev 		 = '/dev/ttyUSB0'
-	public_broker    = "192.241.195.144"
-	port      		 = 1883		
-	######################################
 	connected = False
 	mac = get_mac()
 
@@ -99,17 +93,16 @@ if __name__ == "__main__":
 
 
 	try:
-	    print LXP + "Connecting... ", serialdev
+	    print LXP + "Connecting... ", gv.serialdev
 	    #connect to serial port
-	    serial_port = serial.Serial(serialdev, 9600, timeout=20)
-	    print LXP + "Serial port "+ serialdev +" opened"      
+	    serial_port = serial.Serial(gv.serialdev, 9600, timeout=20)
+	    print LXP + "Serial port "+ gv.serialdev +" opened"      
 	                                                                                                                     
 	except:
 	    print LXP + "Failed to connect serial"
 	    logging.error("%sFailed to connect serial",LXP)
 	    #unable to continue with no serial input
 	    raise SystemExit
-
 
 	try:
 		print LXP + "MyID: ",mac
@@ -124,17 +117,20 @@ if __name__ == "__main__":
 
 		# Uncomment to enable debug messages
 		# mqttc.on_log = on_log
-		mqttc.connect(public_broker, port, 60)
+		mqttc.connect(gv.public_broker, gv.port, 60)
 
 		#Subscriptions
 		private_device = `mac`+"/+/+/+/device/+/+"
-		private_group = `mac`+"/+/+/+/group/+/+"
+		private_group  = `mac`+"/+/+/+/group/+/+"
+
+		#Posiblemente esta conexion haya que habilitarla solo "on request"
 		private_system = `mac`+"/+/system/+/+/+"
 
 		mqttc.subscribe(private_device, 0)
 		mqttc.subscribe(private_group, 0)
 		mqttc.subscribe(private_system, 0)
 		#
+
 		rc = 0
 
 		thread = threading.Thread(target=read_from_port, args=(serial_port,))

@@ -65,10 +65,8 @@ def handle_data(data):
 				Flags  = int(fromAP[10].rstrip(), 0)
 
 				#From database read model, type, subtype
-				#
-
-				msg =  "confirm|0x%02X|0x%02X%02X%02X%02X|0x%02X|0x%02X|0x%02X|0x%02X|0x%02X" % (linkID,Addr1,Addr2,Addr3,Addr4,Model,Type,Subtype,Sensors,Flags)
+				msg =  "0x%02X|0x%02X%02X%02X%02X|0x%02X|0x%02X|0x%02X|0x%02X|0x%02X" % (linkID,Addr1,Addr2,Addr3,Addr4,Model,Type,Subtype,Sensors,Flags)
 				#Enviar commando MQTT de publish
-				publish.single("145385902736874L/user/system/config/device/add", msg, hostname="medarz.info")
+				publish.single("145385902736874L/user/system/config/add/confirm", msg, hostname=gv.public_broker)
 
      
