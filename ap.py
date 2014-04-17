@@ -4,6 +4,7 @@ import logging
 import globvars as gv
 import paho.mqtt.publish as publish
 
+LXP = "LH > "
 APP = "AP > "
 
 def handle_data(data):
@@ -53,6 +54,12 @@ def handle_data(data):
 				#TEnemos que obtener la informacion del AP y luego formar el mensaje
 				print APP + data
 
+				#LinkxID Invalido.. La direccion ya existe
+				if fromAP[3]=="0x":
+					logging.error("%sAddressError",APP)
+					print APP + "AddressError"
+					return 
+			          
 				linkID = int(fromAP[2], 0)
 				Addr1  = int(fromAP[3], 0)
 				Addr2  = int(fromAP[4], 0)
@@ -68,5 +75,5 @@ def handle_data(data):
 				msg =  "0x%02X|0x%02X%02X%02X%02X|0x%02X|0x%02X|0x%02X|0x%02X|0x%02X" % (linkID,Addr1,Addr2,Addr3,Addr4,Model,Type,Subtype,Sensors,Flags)
 				#Enviar commando MQTT de publish
 				publish.single("145385902736874L/user/web/config/add/confirm", msg, hostname=gv.public_broker)
-
+				logging.info("%sPublish: 145385902736874L/user/web/config/add/confirm %s",LXP,msg)
      

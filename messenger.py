@@ -9,7 +9,6 @@ def parse_message(topic, payload):
     #         0         1   2   3    4      5     6
     # 66619478619276L/user/led/dim/device/0x01/onboardled   payload
 	message = topic.split("/")
-	command = message[6]
 	device  = message[4]
 	subtype = message[3]
 	edtype  = message[2]
@@ -40,7 +39,7 @@ def parse_message(topic, payload):
 			ack = 1
 
 	if  edtype != "system":
-
+		command = message[6]
 		if gv.tipoED.has_key(edtype):
 				typ = gv.tipoED[edtype]
 		else:
@@ -92,6 +91,38 @@ def parse_message(topic, payload):
 					
 		elif device == "group":
 			grp = int(message[5])
+			if edtype == "led":
+                
+                #Comandos comunes para todos los tipos de LED
+                #power ON/OFF  - compatible entre dimming y ON/OFF
+				if  action == "power":
+					print LXP + "Power:", args
+				
+				elif action == "onboardled":
+					
+					if args == "ON":
+						cmd=0x12 #Send_ByGroup
+						msg=0xA1 
+					elif args == "OFF":
+						cmd=0x12
+						msg=0xA0
+					elif args == "TOGGLE":
+						cmd=0x12
+						msg=0xA3	
+					else:
+						return "MessageNotRecognized"
+
+				elif action == "dimming":
+
+					if subtype == "dim":
+						cmd=0x11 #Send_byID
+						msg=0x50 #DIM_PWM
+					else:
+						return "CommandNotSupported"
+				else:
+					return "CommandNotRecognized"
+			else:
+					return "DeviceNotSupported"
 			#print LXP + "Group:", group_id
 
 	# ---------------- System Messages ------------------
