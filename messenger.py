@@ -13,7 +13,7 @@ def parse_message(topic, payload):
 	device  = message[4]
 	subtype = message[3]
 	edtype  = message[2]
-	payld   = payload.split(";")
+	payld   = payload.split(":")
 	args    = payld[0]
 
 	cmd = 0
@@ -99,8 +99,6 @@ def parse_message(topic, payload):
 		if message[3]=="config":
 			if message[5]=="request":
 				cmd=0x81 
-			elif message[5]=="confirm":
-				return "IgnoredRequest (not for me)"
 			else:
 				return "CommandNotRecognized"
 	#Mensaje de sistema
