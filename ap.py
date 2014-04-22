@@ -65,14 +65,13 @@ def handle_data(data):
 				Addr2  = int(fromAP[4], 0)
 				Addr3  = int(fromAP[5], 0)
 				Addr4  = int(fromAP[6], 0)
-				Model  = int(fromAP[7], 0)
-				Type   = int(fromAP[8], 0)
-				Subtype= 99
+				Type   = int(fromAP[7], 0)
+				Model  = int(fromAP[8], 0)
 				Sensors= int(fromAP[9], 0)
 				Flags  = int(fromAP[10].rstrip(), 0)
 
 				#From database read model, type, subtype
-				msg =  "0x%02X|0x%02X%02X%02X%02X|0x%02X|0x%02X|0x%02X|0x%02X|0x%02X" % (linkID,Addr1,Addr2,Addr3,Addr4,Model,Type,Subtype,Sensors,Flags)
+				msg =  "0x%02X|0x%02X%02X%02X%02X|0x%02X|0x%02X|0x%02X|0x%02X" % (linkID,Addr1,Addr2,Addr3,Addr4,Type,Model,Sensors,Flags)
 				#Enviar commando MQTT de publish
 				publish.single("145385902736874L/user/web/config/add/confirm", msg, hostname=gv.public_broker)
 				logging.info("%sPublish: 145385902736874L/user/web/config/add/confirm %s",LXP,msg)
