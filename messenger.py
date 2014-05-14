@@ -56,7 +56,8 @@ def parse_message(topic, payload):
 
                 #power ON/OFF  - compatible entre dimming y ON/OFF
 				if  action == "power":
-					print LXP + "Power:", args
+					cmd=0x11 #Send_ByID
+					msg=0x40 #Power
 
 				elif action == "setgroup":
 					cmd=0x20  #SET_GROUP
@@ -82,6 +83,7 @@ def parse_message(topic, payload):
 					if subtype == "dim":
 						cmd=0x11 #Send_byID
 						msg=0x50 #DIM_PWM
+						arg=int(payld[0])
 					else:
 						return "CommandNotSupported"
 				else:
@@ -115,8 +117,9 @@ def parse_message(topic, payload):
 				elif action == "dimming":
 
 					if subtype == "dim":
-						cmd=0x11 #Send_byID
+						cmd=0x12 #Send_byID
 						msg=0x50 #DIM_PWM
+						arg=int(payld[0])
 					else:
 						return "CommandNotSupported"
 				else:
@@ -135,5 +138,6 @@ def parse_message(topic, payload):
 	#Mensaje de sistema
 
 	cmd2ap =  "I|0x%02X|0x%02X|0x%02X|0x%02X,0x%02X,0x%02X,0x%02X|0x%02X|0x%04X|0x%02X|%d|%02d|U" % (cmd,msg,arg,ad1,ad2,ad3,ad4,lnk,grp,typ,ack,add)
+	logging.debug("%s%s",LXP,cmd2ap)
 	
 	return cmd2ap

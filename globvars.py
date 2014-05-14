@@ -4,7 +4,7 @@
 #####################################
 #       Global Variables
 #####################################
-serialdev 		 = '/dev/ttyUSB0'
+serialdev 		 = '/dev/ttyS1'
 #public_broker    = "192.241.195.144"
 public_broker    = "192.168.1.66"
 port      		 = 1883		

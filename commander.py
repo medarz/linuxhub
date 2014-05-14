@@ -4,14 +4,17 @@
 # Mario Medina
 # 17-Abr-2012 - version inicial 
 # 11-Abr-2014 - se actualiza a Paho
+# 13-May-2014 - Se anexan mensajes en log
                                                                                                                                  
 import serial                                                                                                                                                 
 import sqlite3                                                                                                                                                
-import datetime         
+import datetime  
+import time
 import threading
 import ap      
 import messenger
 import globvars as gv
+import argparse
 import logging        
 import paho.mqtt.client as paho                                                                                                                        
 from uuid import getnode as get_mac
@@ -20,8 +23,9 @@ from uuid import getnode as get_mac
 def on_connect(mqttc, obj, rc):
     if rc == 0:
     #rc 0 successful connect
-        print LXP + "Connected to:" + gv.public_broker
+        logging.info("%sConnected to: %s",LXP,gv.public_broker)
     else:
+    	logging.error("%sCould not connect to %s",LXP,gv.public_broker)
         raise Exception
         
 # Estructura del mensaje
@@ -30,42 +34,41 @@ def on_connect(mqttc, obj, rc):
         
 def on_message(mqttc, obj, msg):
 
-	print(LXP + "{TPC: "+ msg.topic+"},{MSG: "+str(msg.payload)+"},{QoS: "+str(msg.qos)+"}")
 	logging.info('%s{TPC: %s},{MSG: %s},{QoS: %s}', LXP, msg.topic, msg.payload, msg.qos)
-
+	
 	if gv.cmdACK == True:
 		serialCMD = messenger.parse_message(msg.topic, msg.payload)
 		if  serialCMD.split()[0][0] != "I":
-			logging.warning('%s%s',LXP,serialCMD)
-			print LXP + serialCMD
+			logging.warning("%sBAD COMMAND: %s",LXP,serialCMD)
+			#escribir comando para limpiar el buffer serial
 		else:
-			print LXP + serialCMD
-			serial_port.write(serialCMD);
+			logging.debug("%s%s",LXP,serialCMD)
+			serial_port.write(serialCMD)
 			gv.cmdACK = False
+			time.sleep(0.1)
+			
 	else:
-		print LXP + "NoResponseFromAP"
-		logging.error("%sNoCommandACKFromAP",LXP)
+		logging.error("%sNoResponseFromAP",LXP)
 
 	
 def on_publish(mqttc, obj, mid):
-    print("mid: "+str(mid))
+    logging.debug("%sMyId: %s",LXP,str(mid))
 
 def on_subscribe(mqttc, obj, mid, granted_qos):
-    print(LXP+"Subscribed:"+str(mid))
+    logging.debug("%sSubscribed: %s",LXP,str(mid))
 
 def publica():
 	mqttc.publish.single("paho/test/single", "test", hostname="medarz.info")
 
 def on_log(mqttc, obj, level, string):
-    print(string)
+	logging.debug("%s%s",LXP,string)
 
 def cleanup():
-    print LXP + "ClosingCommander."
+    logging.info("%sClosing Commander",LXP)
     thread._Thread__stop()
     serial_port.close()
     mqttc.disconnect()
     
-
 def read_from_port(ser):
 	global connected
 	while not connected:
@@ -74,9 +77,14 @@ def read_from_port(ser):
            reading = ser.readline().decode()
            ap.handle_data(reading)
 
-
-
 if __name__ == "__main__":
+
+	p = argparse.ArgumentParser(
+	    description='Copyright MBR Solutions. All rights reserved. 2014'
+	)
+	p.add_argument("-v", "--verbose", const = 1, default = 0, type = int, nargs="?", help="Increase verbosity: 0 = warnings, 1 = info, 2 = debug")
+	p.add_argument("-s", "--screen", help="Print on screen instead of log file", action="store_true")
+	args = p.parse_args()
 
 	connected = False
 	mac = get_mac()
@@ -88,24 +96,30 @@ if __name__ == "__main__":
 	gv.cmdACK = True
 	cmdDoneACK = True
 
-	print LXP + "Creating log file" 
-	logging.basicConfig(filename='logs/commander.log',format='%(asctime)s:%(levelname)s\t%(message)s', datefmt='%Y-%m-%d %H:%M:%S',level=logging.DEBUG)
+	if args.verbose == 0:
+		log_l=logging.WARN 
+	elif args.verbose == 1:
+		log_l=logging.INFO  
+	elif args.verbose == 2:
+		log_l=logging.DEBUG
 
+	if args.screen:
+		logging.basicConfig(format='%(asctime)s: %(levelname)s\t%(message)s', datefmt='%Y-%m-%d %H:%M:%S',level=log_l)
+	else:
+		logging.basicConfig(filename='/var/log/mbr/commander.log',format='%(asctime)s: %(levelname)s\t%(message)s', datefmt='%Y-%m-%d %H:%M:%S',level=log_l)
+	
+	logging.info("%sInitializing...",LXP)
+	logging.debug("%sOpening serial port",LXP)
 
 	try:
-	    print LXP + "Connecting... ", gv.serialdev
-	    #connect to serial port
 	    serial_port = serial.Serial(gv.serialdev, 9600, timeout=20)
-	    print LXP + "Serial port "+ gv.serialdev +" opened"      
-	                                                                                                                     
+	    logging.info("%sSuccess!",LXP)  
 	except:
-	    print LXP + "Failed to connect serial"
-	    logging.error("%sFailed to connect serial",LXP)
-	    #unable to continue with no serial input
+	    logging.critical("%sFailed to connect serial",LXP)
 	    raise SystemExit
 
 	try:
-		print LXP + "MyID: ",mac
+		logging.debug("%sID: %s",LXP,mac)
 		mqttc = paho.Client()
 		serial_port.flushInput()
 		
@@ -129,7 +143,6 @@ if __name__ == "__main__":
 		mqttc.subscribe(private_device, 0)
 		mqttc.subscribe(private_group, 0)
 		mqttc.subscribe(private_system, 0)
-		#
 
 		rc = 0
 
@@ -138,18 +151,16 @@ if __name__ == "__main__":
 
 		while rc == 0:
 			rc = mqttc.loop()
-	        
-     
+	         
 	# handle list index error (i.e. assume no data received)
 	except (IndexError):
-	    print LXP + "No data received within serial timeout period"
+	    logging.error("%sNo data received within serial timeout period",LXP)
 	    cleanup()
 	# handle app closure
 	except (KeyboardInterrupt):
-		print "\n"
-		print LXP + "Interrupt received"
+		logging.error("%sInterrupt received - END",LXP)
 		cleanup()
 	except (RuntimeError):
-	    print LXP + "uh-oh! Something Happened"
+	    logging.critical("%sRuntime Error",LXP)
 	    cleanup()
 
