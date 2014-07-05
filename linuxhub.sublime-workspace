@@ -1,0 +1,2329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tim",
+				"timepicker"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"select",
+				"select_add"
+			],
+			[
+				"radio",
+				"radio_d"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"zoni",
+				"zoneinfo"
+			],
+			[
+				"desc",
+				"descripcion"
+			],
+			[
+				"no",
+				"no_update"
+			],
+			[
+				"gp",
+				"gpid"
+			],
+			[
+				"grp",
+				"grp_impar"
+			],
+			[
+				"total",
+				"totalE"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"tab",
+				"tabindx"
+			],
+			[
+				"gro",
+				"groups"
+			],
+			[
+				"group",
+				"groupinfo"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"sub",
+				"subtype"
+			],
+			[
+				"dev",
+				"dev_numrows"
+			],
+			[
+				"to",
+				"tot_numrows"
+			],
+			[
+				"Zon",
+				"Zone_id"
+			],
+			[
+				"get",
+				"getElements"
+			],
+			[
+				"ge",
+				"getElements"
+			],
+			[
+				"Group",
+				"Group_id"
+			],
+			[
+				"check",
+				"checkstatus"
+			],
+			[
+				"cn",
+				"console"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"grou",
+				"groupmembers"
+			],
+			[
+				"btn",
+				"btnclass"
+			],
+			[
+				"slid",
+				"slideUp"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"widgt_body"
+			],
+			[
+				"Lin",
+				"LnkID"
+			],
+			[
+				"L",
+				"LnkID"
+			],
+			[
+				"Desc",
+				"Description"
+			],
+			[
+				"mod",
+				"modelo"
+			],
+			[
+				"te",
+				"TotalE"
+			],
+			[
+				"taB",
+				"tabindx"
+			],
+			[
+				"final",
+				"final_group"
+			],
+			[
+				"pay",
+				"payld"
+			],
+			[
+				"g",
+				"grp"
+			],
+			[
+				"serl",
+				"serialCMD"
+			],
+			[
+				"seria",
+				"serialCMD"
+			],
+			[
+				"db",
+				"db_pass"
+			],
+			[
+				"db_",
+				"db_name"
+			],
+			[
+				"DI",
+				"DIGNode"
+			],
+			[
+				"HR_",
+				"HR_MAX"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"plot",
+				"plotTC"
+			],
+			[
+				"bu",
+				"buttn"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"DIG",
+				"DIGNum"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"wc",
+				"wc_l"
+			],
+			[
+				"w",
+				"wc_l"
+			],
+			[
+				"t",
+				"tmp"
+			],
+			[
+				"diff",
+				"diffFile"
+			],
+			[
+				"veri",
+				"verifyinDB"
+			],
+			[
+				"lo",
+				"lookupPWM"
+			],
+			[
+				"onde",
+				"onedayhour"
+			],
+			[
+				"bus",
+				"busyhourminus"
+			],
+			[
+				"busy",
+				"busyhour"
+			],
+			[
+				"P",
+				"Password"
+			],
+			[
+				"PAt",
+				"Paterno"
+			],
+			[
+				"tex",
+				"textMsg"
+			],
+			[
+				"start",
+				"startDJS"
+			],
+			[
+				"end",
+				"endDJS"
+			],
+			[
+				"stri",
+				"stringData"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ffff",
+				"ffffff"
+			],
+			[
+				"fil",
+				"fileName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/saas/zones.php",
+			"settings":
+			{
+				"buffer_size": 6557,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/ajax/getElements.php",
+			"settings":
+			{
+				"buffer_size": 2382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/action_add.php",
+			"settings":
+			{
+				"buffer_size": 12856,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/form-templates.php",
+			"settings":
+			{
+				"buffer_size": 52986,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/ajax/getSelect.php",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\n//initilize the page\nrequire_once(\"inc/init.php\");\n\n//require UI configuration (nav, ribbon, etc.)\nrequire_once(\"inc/config.ui.php\");\n\n/*---------------- PHP Custom Scripts ---------\n\nYOU CAN SET CONFIGURATION VARIABLES HERE BEFORE IT GOES TO NAV, RIBBON, ETC.\nE.G. $page_title = \"Custom Title\" */\n\n$page_title = \"Form Plugins\";\n\n/* ---------------- END PHP Custom Scripts ------------- */\n\n//include header\n//you can add your custom css in $page_css array.\n//Note: all css files are inside css/ folder\n$page_css[] = \"your_style.css\";\ninclude(\"inc/header.php\");\n\n//include left panel (navigation)\n//follow the tree in inc/config.ui.php\n$page_nav[\"forms\"][\"sub\"][\"form_plugins\"][\"active\"] = true;\ninclude(\"inc/nav.php\");\n\n?>\n<!-- ==========================CONTENT STARTS HERE ========================== -->\n<!-- MAIN PANEL -->\n<div id=\"main\" role=\"main\">\n	<?php\n		//configure ribbon (breadcrumbs) array(\"name\"=>\"url\"), leave url empty if no url\n		//$breadcrumbs[\"New Crumb\"] => \"http://url.com\"\n		$breadcrumbs[\"Forms\"] = \"\";\n		include(\"inc/ribbon.php\");\n	?>\n\n	<!-- MAIN CONTENT -->\n	<div id=\"content\">\n\n		<div class=\"row\">\n			<div class=\"col-xs-12 col-sm-7 col-md-7 col-lg-4\">\n				<h1 class=\"page-title txt-color-blueDark\">\n					<i class=\"fa fa-pencil-square-o fa-fw \"></i> \n						Forms\n					<span>> \n						Form Plugins\n					</span>\n				</h1>\n			</div>\n			<div class=\"col-xs-12 col-sm-5 col-md-5 col-lg-8\">\n				<ul id=\"sparks\" class=\"\">\n					<li class=\"sparks-info\">\n						<h5> My Income <span class=\"txt-color-blue\">$47,171</span></h5>\n						<div class=\"sparkline txt-color-blue hidden-mobile hidden-md hidden-sm\">\n							1300, 1877, 2500, 2577, 2000, 2100, 3000, 2700, 3631, 2471, 2700, 3631, 2471\n						</div>\n					</li>\n					<li class=\"sparks-info\">\n						<h5> Site Traffic <span class=\"txt-color-purple\"><i class=\"fa fa-arrow-circle-up\" data-rel=\"bootstrap-tooltip\" title=\"Increased\"></i>&nbsp;45%</span></h5>\n						<div class=\"sparkline txt-color-purple hidden-mobile hidden-md hidden-sm\">\n							110,150,300,130,400,240,220,310,220,300, 270, 210\n						</div>\n					</li>\n					<li class=\"sparks-info\">\n						<h5> Site Orders <span class=\"txt-color-greenDark\"><i class=\"fa fa-shopping-cart\"></i>&nbsp;2447</span></h5>\n						<div class=\"sparkline txt-color-greenDark hidden-mobile hidden-md hidden-sm\">\n							110,150,300,130,400,240,220,310,220,300, 270, 210\n						</div>\n					</li>\n				</ul>\n			</div>\n		</div>\n		\n		<!-- widget grid -->\n		<section id=\"widget-grid\" class=\"\">\n		\n			<!-- row -->\n			<div class=\"row\">\n		\n				<!-- NEW COL START -->\n				<article class=\"col-sm-12\">\n		\n					<!-- Widget ID (each widget will need unique ID)-->\n					<div class=\"jarviswidget jarviswidget-color-blueDark\" id=\"wid-id-0\" data-widget-colorbutton=\"false\" data-widget-editbutton=\"false\" data-widget-custombutton=\"false\">\n						<!-- widget options:\n						usage: <div class=\"jarviswidget\" id=\"wid-id-0\" data-widget-editbutton=\"false\">\n		\n						data-widget-colorbutton=\"false\"\n						data-widget-editbutton=\"false\"\n						data-widget-togglebutton=\"false\"\n						data-widget-deletebutton=\"false\"\n						data-widget-fullscreenbutton=\"false\"\n						data-widget-custombutton=\"false\"\n						data-widget-collapsed=\"true\"\n						data-widget-sortable=\"false\"\n		\n						-->\n						<header>\n							<span class=\"widget-icon\"> <i class=\"fa fa-edit\"></i> </span>\n							<h2>x-ediable </h2>\n		\n						</header>\n		\n						<!-- widget div-->\n						<div>\n		\n							<!-- widget edit box -->\n							<div class=\"jarviswidget-editbox\">\n								<!-- This area used as dropdown edit box -->\n		\n							</div>\n							<!-- end widget edit box -->\n		\n							<!-- widget content -->\n							<div class=\"widget-body\">\n								<div class=\"widget-body-toolbar\">\n									\n									<div class=\"row\">\n										\n										<div class=\"col-sm-6\">\n											<button id=\"enable\" class=\"btn btn btn-default\">\n												enable / disable\n											</button>\n										</div>\n										<div class=\"col-sm-6 text-right\">\n											\n											<div class=\"onoffswitch-container\">\n												<span class=\"onoffswitch-title\">Auto Open Next</span> \n												<span class=\"onoffswitch\">\n													<input type=\"checkbox\" class=\"onoffswitch-checkbox\" id=\"autoopen\">\n													<label class=\"onoffswitch-label\" for=\"autoopen\"> \n														<span class=\"onoffswitch-inner\" data-swchon-text=\"ON\" data-swchoff-text=\"OFF\"></span> \n														<span class=\"onoffswitch-switch\"></span>\n													</label> \n												</span> \n												\n												\n											</div>\n											\n											<div class=\"onoffswitch-container\">\n												<span class=\"onoffswitch-title\">Open Inline</span> \n												<span class=\"onoffswitch\">\n													<input type=\"checkbox\" class=\"onoffswitch-checkbox\" id=\"inline\">\n													<label class=\"onoffswitch-label\" for=\"inline\"> \n														<span class=\"onoffswitch-inner\" data-swchon-text=\"ON\" data-swchoff-text=\"OFF\"></span> \n														<span class=\"onoffswitch-switch\"></span>\n													</label> \n												</span>\n											</div>	\n											\n										</div>\n										\n									</div>\n										\n		\n								</div>\n		\n								<table id=\"user\" class=\"table table-bordered table-striped\" style=\"clear: both\">\n									<tbody>\n										<tr>\n											<td style=\"width:35%;\">Simple text field</td>\n											<td style=\"width:65%\"><a href=\"form-x-editable.html#\" id=\"username\" data-type=\"text\" data-pk=\"1\" data-original-title=\"Enter username\">superuser</a></td>\n										</tr>\n										<tr>\n											<td>Empty text field, required</td>\n											<td><a href=\"form-x-editable.html#\" id=\"firstname\" data-type=\"text\" data-pk=\"1\" data-placement=\"right\" data-placeholder=\"Required\" data-original-title=\"Enter your firstname\"></a></td>\n										</tr>\n										<tr>\n											<td>Select, local array, custom display</td>\n											<td><a href=\"form-x-editable.html#\" id=\"sex\" data-type=\"select\" data-pk=\"1\" data-value=\"\" data-original-title=\"Select sex\"></a></td>\n										</tr>\n										<tr>\n											<td>Select, remote array, no buttons</td>\n											<td><a href=\"form-x-editable.html#\" id=\"group\" data-type=\"select\" data-pk=\"1\" data-value=\"5\" data-source=\"/groups\" data-original-title=\"Select group\">Admin</a></td>\n										</tr>\n										<tr>\n											<td>Select, error while loading</td>\n											<td><a href=\"form-x-editable.html#\" id=\"status\" data-type=\"select\" data-pk=\"1\" data-value=\"0\" data-source=\"/status\" data-original-title=\"Select status\">Active</a></td>\n										</tr>\n		\n										<tr>\n											<td>Datepicker</td>\n											<td><a href=\"#\" id=\"vacation\" data-type=\"date\" data-viewformat=\"dd.mm.yyyy\" data-pk=\"1\" data-placement=\"right\" data-original-title=\"When you want vacation to start?\">25.02.2013</a></td>\n										</tr>\n										<tr>\n											<td>Combodate (date)</td>\n											<td><a href=\"form-x-editable.html#\" id=\"dob\" data-type=\"combodate\" data-value=\"1984-05-15\" data-format=\"YYYY-MM-DD\" data-viewformat=\"DD/MM/YYYY\" data-template=\"D / MMM / YYYY\" data-pk=\"1\" data-original-title=\"Select Date of birth\"></a></td>\n										</tr>\n										<tr>\n											<td>Combodate (datetime)</td>\n											<td><a href=\"form-x-editable.html#\" id=\"event\" data-type=\"combodate\" data-template=\"D MMM YYYY  HH:mm\" data-format=\"YYYY-MM-DD HH:mm\" data-viewformat=\"MMM D, YYYY, HH:mm\" data-pk=\"1\" data-original-title=\"Setup event date and time\"></a></td>\n										</tr>\n		\n										<tr>\n											<td>Textarea, buttons below. Submit by <i>ctrl+enter</i></td>\n											<td><a href=\"form-x-editable.html#\" id=\"comments\" data-type=\"textarea\" data-pk=\"1\" data-placeholder=\"Your comments here...\" data-original-title=\"Enter comments\">awesome user!</a></td>\n										</tr>\n		\n										<tr>\n											<td>Twitter typeahead.js</td>\n											<td><a href=\"form-x-editable.html#\" id=\"state2\" data-type=\"typeaheadjs\" data-pk=\"1\" data-placement=\"right\" data-original-title=\"Start typing State..\"></a></td>\n										</tr>\n		\n										<tr>\n											<td>Checklist</td>\n											<td><a href=\"form-x-editable.html#\" id=\"fruits\" data-type=\"checklist\" data-value=\"2,3\" data-original-title=\"Select fruits\"></a></td>\n										</tr>\n		\n										<tr>\n											<td>Select2 (tags mode)</td>\n											<td><a href=\"form-x-editable.html#\" id=\"tags\" data-type=\"select2\" data-pk=\"1\" data-original-title=\"Enter tags\">html, javascript</a></td>\n										</tr>\n		\n										<tr>\n											<td>Select2 (dropdown mode)</td>\n											<td><a href=\"form-x-editable.html#\" id=\"country\" data-type=\"select2\" data-pk=\"1\" data-select-search=\"true\" data-value=\"BS\" data-original-title=\"Select country\"></a></td>\n										</tr>\n		\n										<tr>\n											<td>Custom input, several fields</td>\n											<td><a href=\"form-x-editable.html#\" id=\"address\" data-type=\"address\" data-pk=\"1\" data-original-title=\"Please, fill address\"></a></td>\n										</tr>\n		\n									</tbody>\n								</table>\n		\n							</div>\n							<!-- end widget content -->\n		\n						</div>\n						<!-- end widget div -->\n		\n					</div>\n					<!-- end widget -->\n		\n					<!-- Widget ID (each widget will need unique ID)-->\n					<div class=\"jarviswidget jarviswidget-color-darken\" id=\"wid-id-1\" data-widget-colorbutton=\"false\" data-widget-editbutton=\"false\" data-widget-custombutton=\"false\">\n						<!-- widget options:\n						usage: <div class=\"jarviswidget\" id=\"wid-id-0\" data-widget-editbutton=\"false\">\n		\n						data-widget-colorbutton=\"false\"\n						data-widget-editbutton=\"false\"\n						data-widget-togglebutton=\"false\"\n						data-widget-deletebutton=\"false\"\n						data-widget-fullscreenbutton=\"false\"\n						data-widget-custombutton=\"false\"\n						data-widget-collapsed=\"true\"\n						data-widget-sortable=\"false\"\n		\n						-->\n						<header>\n							<span class=\"widget-icon\"> <i class=\"fa fa-edit\"></i> </span>\n							<h2>Sliders </h2>\n		\n						</header>\n		\n						<!-- widget div-->\n						<div>\n		\n							<!-- widget edit box -->\n							<div class=\"jarviswidget-editbox\">\n								<!-- This area used as dropdown edit box -->\n		\n							</div>\n							<!-- end widget edit box -->\n		\n							<!-- widget content -->\n							<div class=\"widget-body\">\n		\n								<form>\n		\n									<fieldset>\n										<legend>\n											Smart Scale Slider\n										</legend>\n										<div class=\"row\">\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<input id=\"range-slider-1\" type=\"text\" name=\"range_1\" value=\"\">\n												</div>\n											</div>\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<input id=\"range-slider-2\" type=\"text\" name=\"range_2\" value=\"1000;100000\" data-type=\"double\" data-step=\"500\" data-postfix=\" €\" data-from=\"30000\" data-to=\"90000\" data-hasgrid=\"true\">\n												</div>\n											</div>\n										</div>\n		\n										<div class=\"row\">\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<input id=\"range-slider-3\" type=\"text\" name=\"range_2a\" value=\"\">\n												</div>\n											</div>\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<input id=\"range-slider-4\" type=\"text\" name=\"range_4\" value=\"\">\n												</div>\n											</div>\n										</div>\n		\n										<div class=\"row\">\n											<div class=\"col-sm-12\">\n		\n												<div class=\"form-group\">\n													<input id=\"range-slider-5\" type=\"text\" name=\"range_5a\" value=\"\">\n												</div>\n											</div>\n										</div>\n		\n									</fieldset>\n		\n									<fieldset>\n										<legend>\n											noScale Slider\n										</legend>\n										<div class=\"row\">\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<label>Default</label>\n													<div id=\"nouislider-1\" class=\"noUiSlider\"></div>\n												</div>\n											</div>\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<label>Range slider (<span class=\"nouislider-value\">20 - 60</span>)</label>\n													<div id=\"nouislider-3\" class=\"noUiSlider\"></div>\n												</div>\n		\n											</div>\n										</div>\n		\n		\n										<div class=\"row\">\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<label>Default Slider (disabled)</label>\n													<div id=\"nouislider-4\" class=\"noUiSlider\"></div>\n												</div>\n											</div>\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<label>Skips a beat</label>\n													<div id=\"nouislider-2\" class=\"noUiSlider\"></div>\n												</div>\n		\n											</div>\n										</div>\n									</fieldset>\n									\n									<fieldset class=\"margin-top-10\">\n										\n										<legend>\n											JQuery UI Slider\n										</legend>\n										<div class=\"row\">\n											<div class=\"col-sm-6\">\n												<label><code>.slider .slider-danger</code></label>\n												<input type=\"text\" class=\"slider slider-danger\" id=\"sal\" value=\"\" \n												data-slider-min=\"10\" \n												data-slider-max=\"1000\" \n												data-slider-step=\"1\" \n												data-slider-value=\"[50,450]\"\n												data-slider-handle=\"round\">\n											</div>\n											<div class=\"col-sm-6\">\n												<label><code>.slider .slider-success</code></label>\n												<input type=\"text\" class=\"slider slider-success\" id=\"sa2\" value=\"\" \n												data-slider-min=\"10\" \n												data-slider-max=\"1000\" \n												data-slider-step=\"1\" \n												data-slider-value=\"[150,760]\" \n												data-slider-handle=\"triangle\">\n											</div>\n										</div>	\n										<div class=\"row\">\n											<div class=\"col-sm-6\">\n												<label><code>.slider .slider-warning</code></label>\n												<input type=\"text\" class=\"slider slider-warning\" id=\"sa3\" value=\"\" \n												data-slider-min=\"1\" \n												data-slider-max=\"300\"  \n												data-slider-value=\"150\" \n												data-slider-selection = \"before\"\n												data-slider-handle=\"squar\">\n											</div>\n											<div class=\"col-sm-6\">\n												<label><code>.slider .slider-info</code></label>\n												<input type=\"text\" class=\"slider slider-info\" id=\"sa4\" value=\"\" \n												data-slider-min=\"1\" \n												data-slider-max=\"300\"  \n												data-slider-value=\"150\" \n												data-slider-selection = \"after\"\n												data-slider-handle=\"round\">\n											</div>\n										</div>	\n										\n										<div class=\"row\">\n											<div class=\"col-sm-12\">\n												<label><code>.slider .slider-primary</code></label>\n												<input type=\"text\" class=\"slider slider-primary\" id=\"sa5\" value=\"\" \n												data-slider-min=\"1\" \n												data-slider-max=\"300\"  \n												data-slider-value=\"150\" \n												data-slider-selection = \"before\"\n												data-slider-handle=\"round\">\n											</div>\n										</div>	\n										\n										<div class=\"row\">\n											\n											<div class=\"col-sm-6\">\n									\n												<pre><strong class=\"margin-top-10 margin-bottom-10 font-lg\">Usage</strong><br>\n		<code><strong>&lt;input data-slider-min=\"10\" ..  /&gt;</strong></code>\n		data-slider-orientation=\"vertical\" <span class=\"text-muted\"> // vertical or horizontal</span>\n		data-slider-step=\"1\"               <span class=\"text-muted\"> // increment step</span>\n		data-slider-min=\"10\"               <span class=\"text-muted\"> // slider min value</span>\n		data-slider-max=\"500\"              <span class=\"text-muted\"> // slider max value</span>\n		data-slider-value=\"315\"            <span class=\"text-muted\"> // handler position on slider</span>\n		data-slider-selection = \"after\"    <span class=\"text-muted\"> // handler position on slider</span>\n		data-slider-handle=\"round\"         <span class=\"text-muted\"> // round or square</span> \n		data-slider-tooltip = \"show\"       <span class=\"text-muted\"> // show or hide</span> \n												</pre>\n											</div>\n											\n											<div class=\"col-sm-6\">\n												\n												<div class=\"well\">\n						\n										          <\n										          le>\n										            <tbody>\n										              <tr>\n										                <td>\n										                  <input type=\"text\" class=\"slider slider-danger\" value=\"\" \n										                  data-slider-min=\"-20\" \n										                  data-slider-max=\"20\" \n										                  data-slider-step=\"1\" \n										                  data-slider-value=\"-13\" \n										                  data-slider-orientation=\"vertical\" \n										                  data-slider-selection=\"after\" \n										                  data-slider-handle=\"square\" \n										                  data-slider-tooltip=\"hide\">\n										                </td>\n										                <td>\n										                  <input type=\"text\" class=\"slider\" value=\"\" \n										                  data-slider-min=\"-20\" \n										                  data-slider-max=\"20\" \n										                  data-slider-step=\"1\" \n										                  data-slider-value=\"-11\" \n										                  data-slider-orientation=\"vertical\" \n										                  data-slider-selection=\"after\" \n										                  data-slider-handle=\"triangle\" \n										                  data-slider-tooltip=\"hide\">\n										                </td>\n										                <td>\n										                  <input type=\"text\" class=\"slider\" value=\"\" \n										                  data-slider-min=\"-20\" \n										                  data-slider-max=\"20\" \n										                  data-slider-step=\"1\" \n										                  data-slider-value=\"-6\" \n										                  data-slider-orientation=\"vertical\" \n										                  data-slider-selection=\"after\" \n										                  data-slider-tooltip=\"hide\">\n										                </td>\n										                <td>\n										                  <input type=\"text\" class=\"slider\" value=\"\" \n										                  data-slider-min=\"-20\" \n										                  data-slider-max=\"20\" \n										                  data-slider-step=\"1\" \n										                  data-slider-value=\"-4\" \n										                  data-slider-orientation=\"vertical\" \n										                  data-slider-selection=\"after\" \n										                  data-slider-tooltip=\"hide\">\n										                </td>\n										                <td>\n										                  <input type=\"text\" class=\"slider\" value=\"\" \n										                  data-slider-min=\"-20\" \n										                  data-slider-max=\"20\" \n										                  data-slider-step=\"1\" \n										                  data-slider-value=\"-6\" \n										                  data-slider-orientation=\"vertical\" \n										                  data-slider-selection=\"after\" \n										                  data-slider-tooltip=\"hide\">\n										                </td>\n										                <td>\n										                  <input type=\"text\" class=\"slider slider-warning\" value=\"\" \n										                  data-slider-min=\"-20\" \n										                  data-slider-max=\"20\" \n										                  data-slider-step=\"1\" \n										                  data-slider-value=\"[-11, 19]\" \n										                  data-slider-orientation=\"vertical\" \n										                  data-slider-selection=\"after\" \n										                  data-slider-handle=\"triangle\" \n										                  data-slider-tooltip=\"show\">\n										                </td>\n										                <td>\n										                  <input type=\"text\" class=\"slider slider-success\" value=\"\" \n										                  data-slider-min=\"-20\" \n										                  data-slider-max=\"20\" \n										                  data-slider-step=\"1\" \n										                  data-slider-value=\"-17\" \n										                  data-slider-orientation=\"vertical\" \n										                  data-slider-selection=\"after\" \n										                  data-slider-tooltip=\"show\">\n										                </td>\n										              </tr>\n										            </tbody>\n										          </table>\n										          \n			      								</div>\n												\n											</div>\n											\n										</div>	\n									</fieldset>	\n		\n									\n								</form>\n		\n							</div>\n							<!-- end widget content -->\n		\n						</div>\n						<!-- end widget div -->\n		\n					</div>\n					<!-- end widget -->\n		\n				</article>\n				<!-- END COL -->\n		\n			</div>\n		\n			<!-- end row -->\n		\n			<!-- START ROW -->\n		\n			<div class=\"row\">\n		\n				<!-- NEW COL START -->\n				<article class=\"col-sm-12 col-md-12 col-lg-6\">\n		\n					<!-- Widget ID (each widget will need unique ID)-->\n					<div class=\"jarviswidget\" id=\"wid-id-2\" data-widget-colorbutton=\"false\" data-widget-editbutton=\"false\" data-widget-custombutton=\"false\">\n						<!-- widget options:\n						usage: <div class=\"jarviswidget\" id=\"wid-id-0\" data-widget-editbutton=\"false\">\n		\n						data-widget-colorbutton=\"false\"\n						data-widget-editbutton=\"false\"\n						data-widget-togglebutton=\"false\"\n						data-widget-deletebutton=\"false\"\n						data-widget-fullscreenbutton=\"false\"\n						data-widget-custombutton=\"false\"\n						data-widget-collapsed=\"true\"\n						data-widget-sortable=\"false\"\n		\n						-->\n						<header>\n							<span class=\"widget-icon\"> <i class=\"fa fa-edit\"></i> </span>\n							<h2>Plugins & Enhancers </h2>\n		\n						</header>\n		\n						<!-- widget div-->\n						<div>\n		\n							<!-- widget edit box -->\n							<div class=\"jarviswidget-editbox\">\n								<!-- This area used as dropdown edit box -->\n		\n							</div>\n							<!-- end widget edit box -->\n		\n							<!-- widget content -->\n							<div class=\"widget-body\">\n		\n								<form class=\"\">\n		\n									<fieldset>\n										<legend>\n											Select 2\n										</legend>\n		\n										<div class=\"form-group\">\n											<label>Select2 Plugin (select)</label>\n											<select style=\"width:100%\" class=\"select2\">\n												<optgroup label=\"Alaskan/Hawaiian Time Zone\">\n													<option value=\"AK\">Alaska</option>\n													<option value=\"HI\">Hawaii</option>\n												</optgroup>\n												<optgroup label=\"Pacific Time Zone\">\n													<option value=\"CA\">California</option>\n													<option value=\"NV\">Nevada</option>\n													<option value=\"OR\">Oregon</option>\n													<option value=\"WA\">Washington</option>\n												</optgroup>\n												<optgroup label=\"Mountain Time Zone\">\n													<option value=\"AZ\">Arizona</option>\n													<option value=\"CO\">Colorado</option>\n													<option value=\"ID\">Idaho</option>\n													<option value=\"MT\">Montana</option><option value=\"NE\">Nebraska</option>\n													<option value=\"NM\">New Mexico</option>\n													<option value=\"ND\">North Dakota</option>\n													<option value=\"UT\">Utah</option>\n													<option value=\"WY\">Wyoming</option>\n												</optgroup>\n												<optgroup label=\"Central Time Zone\">\n													<option value=\"AL\">Alabama</option>\n													<option value=\"AR\">Arkansas</option>\n													<option value=\"IL\">Illinois</option>\n													<option value=\"IA\">Iowa</option>\n													<option value=\"KS\">Kansas</option>\n													<option value=\"KY\">Kentucky</option>\n													<option value=\"LA\">Louisiana</option>\n													<option value=\"MN\">Minnesota</option>\n													<option value=\"MS\">Mississippi</option>\n													<option value=\"MO\">Missouri</option>\n													<option value=\"OK\">Oklahoma</option>\n													<option value=\"SD\">South Dakota</option>\n													<option value=\"TX\">Texas</option>\n													<option value=\"TN\">Tennessee</option>\n													<option value=\"WI\">Wisconsin</option>\n												</optgroup>\n												<optgroup label=\"Eastern Time Zone\">\n													<option value=\"CT\">Connecticut</option>\n													<option value=\"DE\">Delaware</option>\n													<option value=\"FL\">Florida</option>\n													<option value=\"GA\">Georgia</option>\n													<option value=\"IN\">Indiana</option>\n													<option value=\"ME\">Maine</option>\n													<option value=\"MD\">Maryland</option>\n													<option value=\"MA\">Massachusetts</option>\n													<option value=\"MI\">Michigan</option>\n													<option value=\"NH\">New Hampshire</option><option value=\"NJ\">New Jersey</option>\n													<option value=\"NY\">New York</option>\n													<option value=\"NC\">North Carolina</option>\n													<option value=\"OH\">Ohio</option>\n													<option value=\"PA\">Pennsylvania</option><option value=\"RI\">Rhode Island</option><option value=\"SC\">South Carolina</option>\n													<option value=\"VT\">Vermont</option><option value=\"VA\">Virginia</option>\n													<option value=\"WV\">West Virginia</option>\n												</optgroup>\n											</select>\n		\n											<div class=\"note\">\n												<strong>Usage:</strong> &lt;select style=&quot;width:100%&quot; class=&quot;select2&quot; &quot;&gt;...&lt;/select&gt;\n											</div>\n										</div>\n		\n										<div class=\"form-group\">\n											<label>Select2 Plugin (multi-select)</label>\n											<select multiple style=\"width:100%\" class=\"select2\">\n												<optgroup label=\"Alaskan/Hawaiian Time Zone\">\n													<option value=\"AK\">Alaska</option>\n													<option value=\"HI\">Hawaii</option>\n												</optgroup>\n												<optgroup label=\"Pacific Time Zone\">\n													<option value=\"CA\">California</option>\n													<option value=\"NV\" selected=\"selected\">Nevada</option>\n													<option value=\"OR\">Oregon</option>\n													<option value=\"WA\">Washington</option>\n												</optgroup>\n												<optgroup label=\"Mountain Time Zone\">\n													<option value=\"AZ\">Arizona</option>\n													<option value=\"CO\">Colorado</option>\n													<option value=\"ID\">Idaho</option>\n													<option value=\"MT\" selected=\"selected\">Montana</option><option value=\"NE\">Nebraska</option>\n													<option value=\"NM\">New Mexico</option>\n													<option value=\"ND\">North Dakota</option>\n													<option value=\"UT\">Utah</option>\n													<option value=\"WY\">Wyoming</option>\n												</optgroup>\n												<optgroup label=\"Central Time Zone\">\n													<option value=\"AL\">Alabama</option>\n													<option value=\"AR\">Arkansas</option>\n													<option value=\"IL\">Illinois</option>\n													<option value=\"IA\">Iowa</option>\n													<option value=\"KS\">Kansas</option>\n													<option value=\"KY\">Kentucky</option>\n													<option value=\"LA\">Louisiana</option>\n													<option value=\"MN\">Minnesota</option>\n													<option value=\"MS\">Mississippi</option>\n													<option value=\"MO\">Missouri</option>\n													<option value=\"OK\">Oklahoma</option>\n													<option value=\"SD\">South Dakota</option>\n													<option value=\"TX\">Texas</option>\n													<option value=\"TN\">Tennessee</option>\n													<option value=\"WI\">Wisconsin</option>\n												</optgroup>\n												<optgroup label=\"Eastern Time Zone\">\n													<option value=\"CT\">Connecticut</option>\n													<option value=\"DE\">Delaware</option>\n													<option value=\"FL\">Florida</option>\n													<option value=\"GA\">Georgia</option>\n													<option value=\"IN\">Indiana</option>\n													<option value=\"ME\">Maine</option>\n													<option value=\"MD\">Maryland</option>\n													<option value=\"MA\">Massachusetts</option>\n													<option value=\"MI\" selected=\"selected\">Michigan</option>\n													<option value=\"NH\">New Hampshire</option>\n													<option value=\"NJ\">New Jersey</option>\n													<option value=\"NY\">New York</option>\n													<option value=\"NC\">North Carolina</option>\n													<option value=\"OH\">Ohio</option>\n													<option value=\"PA\">Pennsylvania</option>\n													<option value=\"RI\">Rhode Island</option>\n													<option value=\"SC\">South Carolina</option>\n													<option value=\"VT\">Vermont</option>\n													<option value=\"VA\">Virginia</option>\n													<option value=\"WV\">West Virginia</option>\n												</optgroup>\n											</select>\n		\n											<div class=\"note\">\n												<strong>Usage:</strong> &lt;select multiple style=&quot;width:100%&quot; class=&quot;select2&quot; &gt;...&lt;/select&gt;\n											</div>\n										</div>\n		\n									</fieldset>\n		\n									<fieldset>\n										<legend>\n											Date Picker (Jquery UI)\n										</legend>\n		\n										<div class=\"row\">\n											<div class=\"col-sm-12\">\n												<div class=\"form-group\">\n													<label>Select a date (single):</label>\n													<div class=\"input-group\">\n														<input type=\"text\" name=\"mydate\" placeholder=\"Select a date\" class=\"form-control datepicker\" data-dateformat=\"dd/mm/yy\">\n														<span class=\"input-group-addon\"><i class=\"fa fa-calendar\"></i></span>\n													</div>\n												</div>\n											</div>\n		\n											<div class=\"col-sm-12\">\n												<label>Select a date (range):</label>\n											</div>\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<div class=\"input-group\">\n														<input class=\"form-control\" id=\"from\" type=\"text\" placeholder=\"From\">\n														<span class=\"input-group-addon\"><i class=\"fa fa-calendar\"></i></span>\n													</div>\n												</div>\n		\n											</div>\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<div class=\"input-group\">\n														<input class=\"form-control\" id=\"to\" type=\"text\" placeholder=\"Select a date\">\n														<span class=\"input-group-addon\"><i class=\"fa fa-calendar\"></i></span>\n													</div>\n												</div>\n		\n											</div>\n		\n										</div>\n									</fieldset>\n		\n									<fieldset>\n										<legend>\n											Bootstrap Timepicker\n										</legend>\n		\n										<div class=\"row\">\n		\n											<div class=\"col-sm-12\">\n												<div class=\"row\">\n		\n													<div class=\"col-sm-12\">\n														<div class=\"form-group\">\n															<label>Timepicker (default):</label>\n															<div class=\"input-group\">\n																<input class=\"form-control\" id=\"timepicker\" type=\"text\" placeholder=\"Select time\">\n																<span class=\"input-group-addon\"><i class=\"fa fa-clock-o\"></i></span>\n															</div>\n														</div>\n													</div>\n		\n												</div>\n											</div>\n		\n										</div>\n		\n									</fieldset>\n		\n									<fieldset>\n										<legend>\n											Spinners\n										</legend>\n		\n										<div class=\"row\">\n		\n											<div class=\"col-sm-6 col-md-4 col-lg-4\">\n		\n												<div class=\"form-group\">\n													<label>Default</label>\n													<input class=\"form-control spinner-left\"  id=\"spinner\" name=\"spinner\" value=\"1\" type=\"text\">\n												</div>\n		\n											</div>\n											<div class=\"col-sm-6 col-md-4 col-lg-4\">\n												<div class=\"form-group\">\n													<label>Decimal spinner</label>\n													<input class=\"form-control\"  id=\"spinner-decimal\" name=\"spinner-decimal\" value=\"7.99\">\n												</div>\n											</div>\n											<div class=\"col-sm-12 col-md-4 col-lg-4\">\n												<div class=\"form-group\">\n													<label>Increment spinner</label>\n													<input class=\"form-control spinner-both\"  id=\"spinner-currency\" name=\"spinner-currency\" value=\"5\">\n												</div>\n											</div>\n										</div>\n		\n									</fieldset>\n		\n									<fieldset>\n										<legend>\n											Color Pickers\n										</legend>\n		\n										<div class=\"row\">\n		\n											<div class=\"col-sm-6\">\n		\n												<div class=\"form-group\">\n													<label>Color Picker (HEX)</label>\n													<input class=\"form-control\" id=\"colorpicker-1\" type=\"text\" value=\"#8fff00\">\n												</div>\n		\n											</div>\n											<div class=\"col-sm-6\">\n												<div class=\"form-group\">\n													<label>Color Picker (RGBA)</label>\n													<input class=\"form-control\" id=\"colorpicker-2\" type=\"text\" value=\"rgba(0,194,255,0.78)\" data-color-format=\"rgba\">\n												</div>\n											</div>\n										</div>\n		\n									</fieldset>\n		\n									<fieldset>\n										<legend>\n											Tags\n										</legend>\n		\n										<div class=\"row\">\n											\n											<div class=\"col-sm-12\">\n												<div class=\"form-group\">\n													<label>Type and enter to add tag</label>\n													<input class=\"form-control tagsinput\" value=\"Amsterdam,Washington,Sydney,Beijing,Cairo\" data-role=\"tagsinput\">\n												</div>\n											</div>\n											\n										</div>\n		\n									</fieldset>\n									\n									<div class=\"form-actions\">\n										<div class=\"row\">\n											<div class=\"col-md-12\">\n												<button class=\"btn btn-default\" type=\"submit\">\n													Cancel\n												</button>\n												<button class=\"btn btn-primary\" type=\"submit\">\n													<i class=\"fa fa-save\"></i>\n													Submit\n												</button>\n											</div>\n										</div>\n									</div>\n		\n								</form>\n		\n							</div>\n							<!-- end widget content -->\n		\n						</div>\n						<!-- end widget div -->\n		\n					</div>\n					<!-- end widget -->\n		\n				</article>\n				<!-- END COL -->\n		\n				<!-- NEW COL START -->\n				<article class=\"col-sm-12 col-md-12 col-lg-6\">\n		\n					<!-- Widget ID (each widget will need unique ID)-->\n					<div class=\"jarviswidget\" id=\"wid-id-3\" data-widget-colorbutton=\"false\" data-widget-editbutton=\"false\" data-widget-custombutton=\"false\">\n						<!-- widget options:\n						usage: <div class=\"jarviswidget\" id=\"wid-id-0\" data-widget-editbutton=\"false\">\n		\n						data-widget-colorbutton=\"false\"\n						data-widget-editbutton=\"false\"\n						data-widget-togglebutton=\"false\"\n						data-widget-deletebutton=\"false\"\n						data-widget-fullscreenbutton=\"false\"\n						data-widget-custombutton=\"false\"\n						data-widget-collapsed=\"true\"\n						data-widget-sortable=\"false\"\n		\n						-->\n						<header>\n							<span class=\"widget-icon\"> <i class=\"fa fa-edit\"></i> </span>\n							<h2>All Masking </h2>\n		\n						</header>\n		\n						<!-- widget div-->\n						<div>\n		\n							<!-- widget edit box -->\n							<div class=\"jarviswidget-editbox\">\n								<!-- This area used as dropdown edit box -->\n		\n							</div>\n							<!-- end widget edit box -->\n		\n							<!-- widget content -->\n							<div class=\"widget-body\">\n								<p class=\"alert alert-info text-align-center\">\n									USAGE: &lt;input type=&quot;text&quot; <strong>data-mask=&quot;99/99/9999&quot; data-mask-placeholder= &quot;-&quot;&gt;</strong>\n								</p>\n		\n								<form>\n		\n									<fieldset>\n										<legend>\n											Input Masking made easier!\n										</legend>\n		\n										<div class=\"form-group\">\n											<label>Date masking</label>\n											<div class=\"input-group\">\n												<input type=\"text\" class=\"form-control\" data-mask=\"99/99/9999\" data-mask-placeholder= \"-\">\n												<span class=\"input-group-addon\"><i class=\"fa fa-calendar\"></i></span>\n											</div>\n											<p class=\"note\">\n												Data format **/**/****\n											</p>\n										</div>\n		\n										<div class=\"form-group\">\n											<label>Phone masking</label>\n											<div class=\"input-group\">\n												<input type=\"text\" class=\"form-control\" data-mask=\"(999) 999-9999\" data-mask-placeholder= \"X\">\n												<span class=\"input-group-addon\"><i class=\"fa fa-phone\"></i></span>\n											</div>\n											<p class=\"note\">\n												Data format (XXX) XXX-XXXX\n											</p>\n										</div>\n		\n										<div class=\"form-group\">\n											<label>Credit card masking</label>\n											<div class=\"input-group\">\n												<input type=\"text\" class=\"form-control\" data-mask=\"9999-9999-9999-9999\" data-mask-placeholder= \"*\">\n												<span class=\"input-group-addon\"><i class=\"fa fa-credit-card\"></i></span>\n											</div>\n											<p class=\"note\">\n												Data format ****-****-****-****\n											</p>\n										</div>\n		\n										<div class=\"form-group\">\n											<label>Serial number masking</label>\n											<div class=\"input-group\">\n												<input type=\"text\" class=\"form-control\" data-mask=\"***-***-***-***-***-***\" data-mask-placeholder= \"_\">\n												<span class=\"input-group-addon\"><i class=\"fa fa-asterisk\"></i></span>\n											</div>\n											<p class=\"note\">\n												Data format ***-***-***-***-***-***\n											</p>\n										</div>\n		\n										<div class=\"form-group\">\n											<label>Tax ID masking</label>\n											<div class=\"input-group\">\n												<input type=\"text\" class=\"form-control\" data-mask=\"99-9999999\" data-mask-placeholder= \"X\">\n												<span class=\"input-group-addon\"><i class=\"fa fa-briefcase\"></i></span>\n											</div>\n											<p class=\"note\">\n												Data format 99-9999999\n											</p>\n										</div>\n		\n										<div class=\"form-actions\">\n											<div class=\"row\">\n												<div class=\"col-md-12\">\n													<button class=\"btn btn-default\" type=\"submit\">\n														Cancel\n													</button>\n													<button class=\"btn btn-primary\" type=\"submit\">\n														<i class=\"fa fa-save\"></i>\n														Submit\n													</button>\n												</div>\n											</div>\n										</div>\n		\n									</fieldset>\n								</form>\n		\n							</div>\n							<!-- end widget content -->\n		\n						</div>\n						<!-- end widget div -->\n		\n					</div>\n					<!-- end widget -->\n		\n					<!-- Widget ID (each widget will need unique ID)-->\n					<div class=\"jarviswidget jarviswidget-color-darken\" id=\"wid-id-5\" data-widget-colorbutton=\"false\" data-widget-editbutton=\"false\" data-widget-custombutton=\"false\">\n						<!-- widget options:\n						usage: <div class=\"jarviswidget\" id=\"wid-id-0\" data-widget-editbutton=\"false\">\n		\n						data-widget-colorbutton=\"false\"\n						data-widget-editbutton=\"false\"\n						data-widget-togglebutton=\"false\"\n						data-widget-deletebutton=\"false\"\n						data-widget-fullscreenbutton=\"false\"\n						data-widget-custombutton=\"false\"\n						data-widget-collapsed=\"true\"\n						data-widget-sortable=\"false\"\n		\n						-->\n						<header>\n							<span class=\"widget-icon\"> <i class=\"fa fa-edit\"></i> </span>\n							<h2>JS Knob </h2>\n		\n						</header>\n		\n						<!-- widget div-->\n						<div>\n		\n							<!-- widget edit box -->\n							<div class=\"jarviswidget-editbox\">\n								<!-- This area used as dropdown edit box -->\n		\n							</div>\n							<!-- end widget edit box -->\n		\n							<!-- widget content -->\n							<div class=\"widget-body\">\n		\n								<form>\n		\n									<fieldset>\n										<legend>\n											JS Knob Input\n										</legend>\n		\n										<div class=\"knobs-demo\">\n		\n											<div>\n												<input class=\"knob\" data-width=\"120\" data-height=\"120\" data-displayInput=true value=\"35\" data-displayPrevious=true data-fgColor=\"#428BCA\">\n											</div>\n		\n											<div>\n												<input class=\"knob\" data-width=\"180\" data-height=\"180\" data-cursor=true data-fgColor=\"#222222\" data-thickness=.3 value=\"29\">\n											</div>\n		\n											<div>\n												<input class=\"knob\" data-width=\"80\" data-height=\"80\" data-fgColor=\"#71843F\" data-angleOffset=-125 data-angleArc=250 value=\"33\" data-thickness=.3>\n											</div>\n		\n										</div>\n		\n									</fieldset>\n									<div class=\"form-actions\">\n		\n										<div class=\"row\">\n											<div class=\"col-md-12\">\n												<button class=\"btn btn-default\" type=\"submit\">\n													Cancel\n												</button>\n												<button class=\"btn btn-primary\" type=\"submit\">\n													<i class=\"fa fa-save\"></i>\n													Submit\n												</button>\n											</div>\n										</div>\n									</div>\n								</form>\n		\n							</div>\n							<!-- end widget content -->\n		\n						</div>\n						<!-- end widget div -->\n		\n					</div>\n					<!-- end widget -->\n		\n				</article>\n				<!-- END COL -->\n		\n			</div>\n		\n			<!-- END ROW -->\n		\n		</section>\n		<!-- end widget grid -->\n\n	</div>\n	<!-- END MAIN CONTENT -->\n\n</div>\n<!-- END MAIN PANEL -->\n<!-- ==========================CONTENT ENDS HERE ========================== -->\n\n<?php \n	//include required scripts\n	include(\"inc/scripts.php\"); \n?>\n\n<!-- PAGE RELATED PLUGIN(S) -->\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/maxlength/bootstrap-maxlength.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/bootstrap-timepicker/bootstrap-timepicker.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/bootstrap-tags/bootstrap-tagsinput.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/noUiSlider/jquery.nouislider.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/ion-slider/ion.rangeSlider.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/colorpicker/bootstrap-colorpicker.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/knob/jquery.knob.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/x-editable/moment.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/x-editable/jquery.mockjax.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/x-editable/x-editable.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/typeahead/typeahead.min.js\"></script>\n<script src=\"<?php echo ASSETS_URL; ?>/js/plugin/typeahead/typeaheadjs.min.js\"></script>\n\n<script type=\"text/javascript\">\n	\n	\n	$(document).ready(function() {\n	\n		 // Spinners\n		$(\"#spinner\").spinner();\n		$(\"#spinner-decimal\").spinner({\n		    step: 0.01,\n		    numberFormat: \"n\"\n		});\n	\n		$(\"#spinner-currency\").spinner({\n		    min: 5,\n		    max: 2500,\n		    step: 25,\n		    start: 1000,\n		    numberFormat: \"C\"\n		});\n	\n		 //Maxlength\n		\n	    $('input[maxlength]').maxlength({\n	        warningClass: \"label label-success\",\n	        limitReachedClass: \"label label-important\",\n	    });\n	\n		\n		 // START AND FINISH DATE\n		$('#startdate').datepicker({\n		    dateFormat: 'dd.mm.yy',\n		    prevText: '<i class=\"fa fa-chevron-left\"></i>',\n		    nextText: '<i class=\"fa fa-chevron-right\"></i>',\n		    onSelect: function (selectedDate) {\n		        $('#finishdate').datepicker('option', 'minDate', selectedDate);\n		    }\n		});\n		$('#finishdate').datepicker({\n		    dateFormat: 'dd.mm.yy',\n		    prevText: '<i class=\"fa fa-chevron-left\"></i>',\n		    nextText: '<i class=\"fa fa-chevron-right\"></i>',\n		    onSelect: function (selectedDate) {\n		        $('#startdate').datepicker('option', 'maxDate', selectedDate);\n		    }\n		});\n	\n		 // Date Range Picker\n		$(\"#from\").datepicker({\n		    defaultDate: \"+1w\",\n		    changeMonth: true,\n		    numberOfMonths: 3,\n		    prevText: '<i class=\"fa fa-chevron-left\"></i>',\n		    nextText: '<i class=\"fa fa-chevron-right\"></i>',\n		    onClose: function (selectedDate) {\n		        $(\"#to\").datepicker(\"option\", \"maxDate\", selectedDate);\n		    }\n	\n		});\n		$(\"#to\").datepicker({\n		    defaultDate: \"+1w\",\n		    changeMonth: true,\n		    numberOfMonths: 3,\n		    prevText: '<i class=\"fa fa-chevron-left\"></i>',\n		    nextText: '<i class=\"fa fa-chevron-right\"></i>',\n		    onClose: function (selectedDate) {\n		        $(\"#from\").datepicker(\"option\", \"minDate\", selectedDate);\n		    }\n		});\n	\n		/*\n		 * TIMEPICKER\n		 */\n	\n		$('#timepicker').timepicker();\n		\n		/*\n		 * JS SLIDER\n		 */\n	\n	    $(\"#nouislider-1\").noUiSlider({\n	        range: [2, 100],\n	        start: 55,\n	        handles: 1,\n	        connect: true,\n	    });\n	\n	    $(\"#nouislider-2\").noUiSlider({\n	        range: [0, 300],\n	        start: [55, 130],\n	        step: 60,\n	        handles: 2,\n	        connect: true\n	    });\n	\n	    $(\"#nouislider-3\").noUiSlider({\n	        range: [0, 1000],\n	        start: [264, 776],\n	        step: 1,\n	        connect: true,\n	        slide: function () {\n	            var values = $(this).val();\n	            $(\".nouislider-value\").text(values[0] + \" - \" + values[1]);\n	        }\n	    });\n	\n	    $(\"#nouislider-4\").noUiSlider({\n	        range: [0, 100],\n	        start: 50,\n	        handles: 1\n	    }).attr(\"disabled\", \"disabled\");\n	\n	\n	\n		/*\n		 * ION SLIDER\n		 */\n	\n	    $(\"#range-slider-1\").ionRangeSlider({\n	        min: 0,\n	        max: 5000,\n	        from: 1000,\n	        to: 4000,\n	        type: 'double',\n	        step: 1,\n	        prefix: \"$\",\n	        prettify: false,\n	        hasGrid: true\n	    });\n	\n	    $(\"#range-slider-2\").ionRangeSlider();\n	\n	    $(\"#range-slider-3\").ionRangeSlider({\n	        min: 0,\n	        from: 2.3,\n	        max: 10,\n	        type: 'single',\n	        step: 0.1,\n	        postfix: \" mm\",\n	        prettify: false,\n	        hasGrid: true\n	    });\n	\n	    $(\"#range-slider-4\").ionRangeSlider({\n	        min: -50,\n	        max: 50,\n	        from: 5,\n	        to: 25,\n	        type: 'double',\n	        step: 1,\n	        postfix: \"°\",\n	        prettify: false,\n	        hasGrid: true\n	    });\n	\n	    $(\"#range-slider-5\").ionRangeSlider({\n	        min: 0,\n	        from: 0,\n	        max: 10,\n	        type: 'single',\n	        step: 0.1,\n	        postfix: \" mm\",\n	        prettify: false,\n	        hasGrid: true\n	    });\n	\n	\n	\n		/*\n		 * COLOR PICKER\n		 */\n	\n	    $('#colorpicker-1').colorpicker()\n	    $('#colorpicker-2').colorpicker()\n	\n	\n	\n		/*\n		 * KNOB\n		 */\n	\n	    $('.knob').knob({\n	        change: function (value) {\n	            //console.log(\"change : \" + value);\n	        },\n	        release: function (value) {\n	            //console.log(this.$.attr('value'));\n	            //console.log(\"release : \" + value);\n	        },\n	        cancel: function () {\n	            //console.log(\"cancel : \", this);\n	        }\n	    });\n	\n	\n		/*\n		 * X-Ediable\n		 */\n	\n	\n	\n	\n	    (function (e) {\n	        \"use strict\";\n	        var t = function (e) {\n	            this.init(\"address\", e, t.defaults)\n	        };\n	        e.fn.editableutils.inherit(t, e.fn.editabletypes.abstractinput);\n	        e.extend(t.prototype, {\n	            render: function () {\n	                this.$input = this.$tpl.find(\"input\")\n	            },\n	            value2html: function (t, n) {\n	                if (!t) {\n	                    e(n).empty();\n	                    return\n	                }\n	                var r = e(\"<div>\").text(t.city).html() + \", \" + e(\"<div>\").text(t.street).html() +\n	                    \" st., bld. \" + e(\"<div>\").text(t.building).html();\n	                e(n).html(r)\n	            },\n	            html2value: function (e) {\n	                return null\n	            },\n	            value2str: function (e) {\n	                var t = \"\";\n	                if (e)\n	                    for (var n in e)\n	                        t = t + n + \":\" + e[n] + \";\";\n	                return t\n	            },\n	            str2value: function (e) {\n	                return e\n	            },\n	            value2input: function (e) {\n	                if (!e)\n	                    return;\n	                this.$input.filter('[name=\"city\"]').val(e.city);\n	                this.$input.filter('[name=\"street\"]').val(e.street);\n	                this.$input.filter('[name=\"building\"]').val(e.building)\n	            },\n	            input2value: function () {\n	                return {\n	                    city: this.$input.filter('[name=\"city\"]').val(),\n	                    street: this.$input.filter('[name=\"street\"]').val(),\n	                    building: this.$input.filter('[name=\"building\"]').val()\n	                }\n	            },\n	            activate: function () {\n	                this.$input.filter('[name=\"city\"]').focus()\n	            },\n	            autosubmit: function () {\n	                this.$input.keydown(function (t) {\n	                    t.which === 13 && e(this).closest(\"form\").submit()\n	                })\n	            }\n	        });\n	        t.defaults = e.extend({}, e.fn.editabletypes.abstractinput.defaults, {\n	            tpl: '<div class=\"editable-address\"><label><span>City: </span><input type=\"text\" name=\"city\" class=\"input-small\"></label></div><div class=\"editable-address\"><label><span>Street: </span><input type=\"text\" name=\"street\" class=\"input-small\"></label></div><div class=\"editable-address\"><label><span>Building: </span><input type=\"text\" name=\"building\" class=\"input-mini\"></label></div>',\n	            inputclass: \"\"\n	        });\n	        e.fn.editabletypes.address = t\n	    })(window.jQuery);\n	\n	    //ajax mocks\n	    $.mockjaxSettings.responseTime = 500;\n	\n	    $.mockjax({\n	        url: '/post',\n	        response: function (settings) {\n	            log(settings, this);\n	        }\n	    });\n	\n	    $.mockjax({\n	        url: '/error',\n	        status: 400,\n	        statusText: 'Bad Request',\n	        response: function (settings) {\n	            this.responseText = 'Please input correct value';\n	            log(settings, this);\n	        }\n	    });\n	\n	    $.mockjax({\n	        url: '/status',\n	        status: 500,\n	        response: function (settings) {\n	            this.responseText = 'Internal Server Error';\n	            log(settings, this);\n	        }\n	    });\n	\n	    $.mockjax({\n	        url: '/groups',\n	        response: function (settings) {\n	            this.responseText = [{\n	                value: 0,\n	                text: 'Guest'\n	            }, {\n	                value: 1,\n	                text: 'Service'\n	            }, {\n	                value: 2,\n	                text: 'Customer'\n	            }, {\n	                value: 3,\n	                text: 'Operator'\n	            }, {\n	                value: 4,\n	                text: 'Support'\n	            }, {\n	                value: 5,\n	                text: 'Admin'\n	            }];\n	            log(settings, this);\n	        }\n	    });\n	\n	    //TODO: add this div to page\n	    function log(settings, response) {\n	        var s = [],\n	            str;\n	        s.push(settings.type.toUpperCase() + ' url = \"' + settings.url + '\"');\n	        for (var a in settings.data) {\n	            if (settings.data[a] && typeof settings.data[a] === 'object') {\n	                str = [];\n	                for (var j in settings.data[a]) {\n	                    str.push(j + ': \"' + settings.data[a][j] + '\"');\n	                }\n	                str = '{ ' + str.join(', ') + ' }';\n	            } else {\n	                str = '\"' + settings.data[a] + '\"';\n	            }\n	            s.push(a + ' = ' + str);\n	        }\n	        s.push('RESPONSE: status = ' + response.status);\n	\n	        if (response.responseText) {\n	            if ($.isArray(response.responseText)) {\n	                s.push('[');\n	                $.each(response.responseText, function (i, v) {\n	                    s.push('{value: ' + v.value + ', text: \"' + v.text + '\"}');\n	                });\n	                s.push(']');\n	            } else {\n	                s.push($.trim(response.responseText));\n	            }\n	        }\n	        s.push('--------------------------------------\\n');\n	        $('#console').val(s.join('\\n') + $('#console').val());\n	    }\n	\n	    /*\n	     * X-EDITABLES\n	     */\n	\n	    $('#inline').on('change', function (e) {\n	        if ($(this).prop('checked')) {\n	            window.location.href = '?mode=inline#ajax/plugins.html';\n	        } else {\n	            window.location.href = '?#ajax/plugins.html';\n	        }\n	    });\n	\n	    if (window.location.href.indexOf(\"?mode=inline\") > -1) {\n	        $('#inline').prop('checked', true);\n	        $.fn.editable.defaults.mode = 'inline';\n	    } else {\n	        $('#inline').prop('checked', false);\n	        $.fn.editable.defaults.mode = 'popup';\n	    }\n	\n	    //defaults\n	    $.fn.editable.defaults.url = '/post';\n	    //$.fn.editable.defaults.mode = 'inline'; use this to edit inline\n	\n	    //enable / disable\n	    $('#enable').click(function () {\n	        $('#user .editable').editable('toggleDisabled');\n	    });\n	\n	    //editables\n	    $('#username').editable({\n	        url: '/post',\n	        type: 'text',\n	        pk: 1,\n	        name: 'username',\n	        title: 'Enter username'\n	    });\n	\n	    $('#firstname').editable({\n	        validate: function (value) {\n	            if ($.trim(value) == '')\n	                return 'This field is required';\n	        }\n	    });\n	\n	    $('#sex').editable({\n	        prepend: \"not selected\",\n	        source: [{\n	            value: 1,\n	            text: 'Male'\n	        }, {\n	            value: 2,\n	            text: 'Female'\n	        }],\n	        display: function (value, sourceData) {\n	            var colors = {\n	                \"\": \"gray\",\n	                1: \"green\",\n	                2: \"blue\"\n	            }, elem = $.grep(sourceData, function (o) {\n	                    return o.value == value;\n	                });\n	\n	            if (elem.length) {\n	                $(this).text(elem[0].text).css(\"color\", colors[value]);\n	            } else {\n	                $(this).empty();\n	            }\n	        }\n	    });\n	\n	    $('#status').editable();\n	\n	    $('#group').editable({\n	        showbuttons: false\n	    });\n	\n	    $('#vacation').editable({\n	        datepicker: {\n	            todayBtn: 'linked'\n	        }\n	    });\n	\n	    $('#dob').editable();\n	\n	    $('#event').editable({\n	        placement: 'right',\n	        combodate: {\n	            firstItem: 'name'\n	        }\n	    });\n	\n	    $('#meeting_start').editable({\n	        format: 'yyyy-mm-dd hh:ii',\n	        viewformat: 'dd/mm/yyyy hh:ii',\n	        validate: function (v) {\n	            if (v && v.getDate() == 10)\n	                return 'Day cant be 10!';\n	        },\n	        datetimepicker: {\n	            todayBtn: 'linked',\n	            weekStart: 1\n	        }\n	    });\n	\n	    $('#comments').editable({\n	        showbuttons: 'bottom'\n	    });\n	\n	    $('#note').editable();\n	    $('#pencil').click(function (e) {\n	        e.stopPropagation();\n	        e.preventDefault();\n	        $('#note').editable('toggle');\n	    });\n	\n	    $('#state').editable({\n	        source: [\"Alabama\", \"Alaska\", \"Arizona\", \"Arkansas\", \"California\", \"Colorado\", \"Connecticut\",\n	            \"Delaware\", \"Florida\", \"Georgia\", \"Hawaii\", \"Idaho\", \"Illinois\", \"Indiana\", \"Iowa\", \"Kansas\",\n	            \"Kentucky\", \"Louisiana\", \"Maine\", \"Maryland\", \"Massachusetts\", \"Michigan\", \"Minnesota\",\n	            \"Mississippi\", \"Missouri\", \"Montana\", \"Nebraska\", \"Nevada\", \"New Hampshire\", \"New Jersey\",\n	            \"New Mexico\", \"New York\", \"North Dakota\", \"North Carolina\", \"Ohio\", \"Oklahoma\", \"Oregon\",\n	            \"Pennsylvania\", \"Rhode Island\", \"South Carolina\", \"South Dakota\", \"Tennessee\", \"Texas\",\n	            \"Utah\", \"Vermont\", \"Virginia\", \"Washington\", \"West Virginia\", \"Wisconsin\", \"Wyoming\"\n	        ]\n	    });\n	\n	    $('#state2').editable({\n	        value: 'California',\n	        typeahead: {\n	            name: 'state',\n	            local: [\"Alabama\", \"Alaska\", \"Arizona\", \"Arkansas\", \"California\", \"Colorado\", \"Connecticut\",\n	                \"Delaware\", \"Florida\", \"Georgia\", \"Hawaii\", \"Idaho\", \"Illinois\", \"Indiana\", \"Iowa\",\n	                \"Kansas\", \"Kentucky\", \"Louisiana\", \"Maine\", \"Maryland\", \"Massachusetts\", \"Michigan\",\n	                \"Minnesota\", \"Mississippi\", \"Missouri\", \"Montana\", \"Nebraska\", \"Nevada\", \"New Hampshire\",\n	                \"New Jersey\", \"New Mexico\", \"New York\", \"North Dakota\", \"North Carolina\", \"Ohio\",\n	                \"Oklahoma\", \"Oregon\", \"Pennsylvania\", \"Rhode Island\", \"South Carolina\", \"South Dakota\",\n	                \"Tennessee\", \"Texas\", \"Utah\", \"Vermont\", \"Virginia\", \"Washington\", \"West Virginia\",\n	                \"Wisconsin\", \"Wyoming\"\n	            ]\n	        }\n	    });\n	\n	    $('#fruits').editable({\n	        pk: 1,\n	        limit: 3,\n	        source: [{\n	            value: 1,\n	            text: 'banana'\n	        }, {\n	            value: 2,\n	            text: 'peach'\n	        }, {\n	            value: 3,\n	            text: 'apple'\n	        }, {\n	            value: 4,\n	            text: 'watermelon'\n	        }, {\n	            value: 5,\n	            text: 'orange'\n	        }]\n	    });\n	\n	    $('#tags').editable({\n	        inputclass: 'input-large',\n	        select2: {\n	            tags: ['html', 'javascript', 'css', 'ajax'],\n	            tokenSeparators: [\",\", \" \"]\n	        }\n	    });\n	\n	    var countries = [];\n	    $.each({\n	        \"BD\": \"Bangladesh\",\n	        \"BE\": \"Belgium\",\n	        \"BF\": \"Burkina Faso\",\n	        \"BG\": \"Bulgaria\",\n	        \"BA\": \"Bosnia and Herzegovina\",\n	        \"BB\": \"Barbados\",\n	        \"WF\": \"Wallis and Futuna\",\n	        \"BL\": \"Saint Bartelemey\",\n	        \"BM\": \"Bermuda\",\n	        \"BN\": \"Brunei Darussalam\",\n	        \"BO\": \"Bolivia\",\n	        \"BH\": \"Bahrain\",\n	        \"BI\": \"Burundi\",\n	        \"BJ\": \"Benin\",\n	        \"BT\": \"Bhutan\",\n	        \"JM\": \"Jamaica\",\n	        \"BV\": \"Bouvet Island\",\n	        \"BW\": \"Botswana\",\n	        \"WS\": \"Samoa\",\n	        \"BR\": \"Brazil\",\n	        \"BS\": \"Bahamas\",\n	        \"JE\": \"Jersey\",\n	        \"BY\": \"Belarus\",\n	        \"O1\": \"Other Country\",\n	        \"LV\": \"Latvia\",\n	        \"RW\": \"Rwanda\",\n	        \"RS\": \"Serbia\",\n	        \"TL\": \"Timor-Leste\",\n	        \"RE\": \"Reunion\",\n	        \"LU\": \"Luxembourg\",\n	        \"TJ\": \"Tajikistan\",\n	        \"RO\": \"Romania\",\n	        \"PG\": \"Papua New Guinea\",\n	        \"GW\": \"Guinea-Bissau\",\n	        \"GU\": \"Guam\",\n	        \"GT\": \"Guatemala\",\n	        \"GS\": \"South Georgia and the South Sandwich Islands\",\n	        \"GR\": \"Greece\",\n	        \"GQ\": \"Equatorial Guinea\",\n	        \"GP\": \"Guadeloupe\",\n	        \"JP\": \"Japan\",\n	        \"GY\": \"Guyana\",\n	        \"GG\": \"Guernsey\",\n	        \"GF\": \"French Guiana\",\n	        \"GE\": \"Georgia\",\n	        \"GD\": \"Grenada\",\n	        \"GB\": \"United Kingdom\",\n	        \"GA\": \"Gabon\",\n	        \"SV\": \"El Salvador\",\n	        \"GN\": \"Guinea\",\n	        \"GM\": \"Gambia\",\n	        \"GL\": \"Greenland\",\n	        \"GI\": \"Gibraltar\",\n	        \"GH\": \"Ghana\",\n	        \"OM\": \"Oman\",\n	        \"TN\": \"Tunisia\",\n	        \"JO\": \"Jordan\",\n	        \"HR\": \"Croatia\",\n	        \"HT\": \"Haiti\",\n	        \"HU\": \"Hungary\",\n	        \"HK\": \"Hong Kong\",\n	        \"HN\": \"Honduras\",\n	        \"HM\": \"Heard Island and McDonald Islands\",\n	        \"VE\": \"Venezuela\",\n	        \"PR\": \"Puerto Rico\",\n	        \"PS\": \"Palestinian Territory\",\n	        \"PW\": \"Palau\",\n	        \"PT\": \"Portugal\",\n	        \"SJ\": \"Svalbard and Jan Mayen\",\n	        \"PY\": \"Paraguay\",\n	        \"IQ\": \"Iraq\",\n	        \"PA\": \"Panama\",\n	        \"PF\": \"French Polynesia\",\n	        \"BZ\": \"Belize\",\n	        \"PE\": \"Peru\",\n	        \"PK\": \"Pakistan\",\n	        \"PH\": \"Philippines\",\n	        \"PN\": \"Pitcairn\",\n	        \"TM\": \"Turkmenistan\",\n	        \"PL\": \"Poland\",\n	        \"PM\": \"Saint Pierre and Miquelon\",\n	        \"ZM\": \"Zambia\",\n	        \"EH\": \"Western Sahara\",\n	        \"RU\": \"Russian Federation\",\n	        \"EE\": \"Estonia\",\n	        \"EG\": \"Egypt\",\n	        \"TK\": \"Tokelau\",\n	        \"ZA\": \"South Africa\",\n	        \"EC\": \"Ecuador\",\n	        \"IT\": \"Italy\",\n	        \"VN\": \"Vietnam\",\n	        \"SB\": \"Solomon Islands\",\n	        \"EU\": \"Europe\",\n	        \"ET\": \"Ethiopia\",\n	        \"SO\": \"Somalia\",\n	        \"ZW\": \"Zimbabwe\",\n	        \"SA\": \"Saudi Arabia\",\n	        \"ES\": \"Spain\",\n	        \"ER\": \"Eritrea\",\n	        \"ME\": \"Montenegro\",\n	        \"MD\": \"Moldova, Republic of\",\n	        \"MG\": \"Madagascar\",\n	        \"MF\": \"Saint Martin\",\n	        \"MA\": \"Morocco\",\n	        \"MC\": \"Monaco\",\n	        \"UZ\": \"Uzbekistan\",\n	        \"MM\": \"Myanmar\",\n	        \"ML\": \"Mali\",\n	        \"MO\": \"Macao\",\n	        \"MN\": \"Mongolia\",\n	        \"MH\": \"Marshall Islands\",\n	        \"MK\": \"Macedonia\",\n	        \"MU\": \"Mauritius\",\n	        \"MT\": \"Malta\",\n	        \"MW\": \"Malawi\",\n	        \"MV\": \"Maldives\",\n	        \"MQ\": \"Martinique\",\n	        \"MP\": \"Northern Mariana Islands\",\n	        \"MS\": \"Montserrat\",\n	        \"MR\": \"Mauritania\",\n	        \"IM\": \"Isle of Man\",\n	        \"UG\": \"Uganda\",\n	        \"TZ\": \"Tanzania, United Republic of\",\n	        \"MY\": \"Malaysia\",\n	        \"MX\": \"Mexico\",\n	        \"IL\": \"Israel\",\n	        \"FR\": \"France\",\n	        \"IO\": \"British Indian Ocean Territory\",\n	        \"FX\": \"France, Metropolitan\",\n	        \"SH\": \"Saint Helena\",\n	        \"FI\": \"Finland\",\n	        \"FJ\": \"Fiji\",\n	        \"FK\": \"Falkland Islands (Malvinas)\",\n	        \"FM\": \"Micronesia, Federated States of\",\n	        \"FO\": \"Faroe Islands\",\n	        \"NI\": \"Nicaragua\",\n	        \"NL\": \"Netherlands\",\n	        \"NO\": \"Norway\",\n	        \"NA\": \"Namibia\",\n	        \"VU\": \"Vanuatu\",\n	        \"NC\": \"New Caledonia\",\n	        \"NE\": \"Niger\",\n	        \"NF\": \"Norfolk Island\",\n	        \"NG\": \"Nigeria\",\n	        \"NZ\": \"New Zealand\",\n	        \"NP\": \"Nepal\",\n	        \"NR\": \"Nauru\",\n	        \"NU\": \"Niue\",\n	        \"CK\": \"Cook Islands\",\n	        \"CI\": \"Cote d'Ivoire\",\n	        \"CH\": \"Switzerland\",\n	        \"CO\": \"Colombia\",\n	        \"CN\": \"China\",\n	        \"CM\": \"Cameroon\",\n	        \"CL\": \"Chile\",\n	        \"CC\": \"Cocos (Keeling) Islands\",\n	        \"CA\": \"Canada\",\n	        \"CG\": \"Congo\",\n	        \"CF\": \"Central African Republic\",\n	        \"CD\": \"Congo, The Democratic Republic of the\",\n	        \"CZ\": \"Czech Republic\",\n	        \"CY\": \"Cyprus\",\n	        \"CX\": \"Christmas Island\",\n	        \"CR\": \"Costa Rica\",\n	        \"CV\": \"Cape Verde\",\n	        \"CU\": \"Cuba\",\n	        \"SZ\": \"Swaziland\",\n	        \"SY\": \"Syrian Arab Republic\",\n	        \"KG\": \"Kyrgyzstan\",\n	        \"KE\": \"Kenya\",\n	        \"SR\": \"Suriname\",\n	        \"KI\": \"Kiribati\",\n	        \"KH\": \"Cambodia\",\n	        \"KN\": \"Saint Kitts and Nevis\",\n	        \"KM\": \"Comoros\",\n	        \"ST\": \"Sao Tome and Principe\",\n	        \"SK\": \"Slovakia\",\n	        \"KR\": \"Korea, Republic of\",\n	        \"SI\": \"Slovenia\",\n	        \"KP\": \"Korea, Democratic People's Republic of\",\n	        \"KW\": \"Kuwait\",\n	        \"SN\": \"Senegal\",\n	        \"SM\": \"San Marino\",\n	        \"SL\": \"Sierra Leone\",\n	        \"SC\": \"Seychelles\",\n	        \"KZ\": \"Kazakhstan\",\n	        \"KY\": \"Cayman Islands\",\n	        \"SG\": \"Singapore\",\n	        \"SE\": \"Sweden\",\n	        \"SD\": \"Sudan\",\n	        \"DO\": \"Dominican Republic\",\n	        \"DM\": \"Dominica\",\n	        \"DJ\": \"Djibouti\",\n	        \"DK\": \"Denmark\",\n	        \"VG\": \"Virgin Islands, British\",\n	        \"DE\": \"Germany\",\n	        \"YE\": \"Yemen\",\n	        \"DZ\": \"Algeria\",\n	        \"US\": \"United States\",\n	        \"UY\": \"Uruguay\",\n	        \"YT\": \"Mayotte\",\n	        \"UM\": \"United States Minor Outlying Islands\",\n	        \"LB\": \"Lebanon\",\n	        \"LC\": \"Saint Lucia\",\n	        \"LA\": \"Lao People's Democratic Republic\",\n	        \"TV\": \"Tuvalu\",\n	        \"TW\": \"Taiwan\",\n	        \"TT\": \"Trinidad and Tobago\",\n	        \"TR\": \"Turkey\",\n	        \"LK\": \"Sri Lanka\",\n	        \"LI\": \"Liechtenstein\",\n	        \"A1\": \"Anonymous Proxy\",\n	        \"TO\": \"Tonga\",\n	        \"LT\": \"Lithuania\",\n	        \"A2\": \"Satellite Provider\",\n	        \"LR\": \"Liberia\",\n	        \"LS\": \"Lesotho\",\n	        \"TH\": \"Thailand\",\n	        \"TF\": \"French Southern Territories\",\n	        \"TG\": \"Togo\",\n	        \"TD\": \"Chad\",\n	        \"TC\": \"Turks and Caicos Islands\",\n	        \"LY\": \"Libyan Arab Jamahiriya\",\n	        \"VA\": \"Holy See (Vatican City State)\",\n	        \"VC\": \"Saint Vincent and the Grenadines\",\n	        \"AE\": \"United Arab Emirates\",\n	        \"AD\": \"Andorra\",\n	        \"AG\": \"Antigua and Barbuda\",\n	        \"AF\": \"Afghanistan\",\n	        \"AI\": \"Anguilla\",\n	        \"VI\": \"Virgin Islands, U.S.\",\n	        \"IS\": \"Iceland\",\n	        \"IR\": \"Iran, Islamic Republic of\",\n	        \"AM\": \"Armenia\",\n	        \"AL\": \"Albania\",\n	        \"AO\": \"Angola\",\n	        \"AN\": \"Netherlands Antilles\",\n	        \"AQ\": \"Antarctica\",\n	        \"AP\": \"Asia/Pacific Region\",\n	        \"AS\": \"American Samoa\",\n	        \"AR\": \"Argentina\",\n	        \"AU\": \"Australia\",\n	        \"AT\": \"Austria\",\n	        \"AW\": \"Aruba\",\n	        \"IN\": \"India\",\n	        \"AX\": \"Aland Islands\",\n	        \"AZ\": \"Azerbaijan\",\n	        \"IE\": \"Ireland\",\n	        \"ID\": \"Indonesia\",\n	        \"UA\": \"Ukraine\",\n	        \"QA\": \"Qatar\",\n	        \"MZ\": \"Mozambique\"\n	    }, function (k, v) {\n	        countries.push({\n	            id: k,\n	            text: v\n	        });\n	    });\n	\n	    $('#country').editable({\n	        source: countries,\n	        select2: {\n	            width: 200\n	        }\n	    });\n	\n	    $('#address').editable({\n	        url: '/post',\n	        value: {\n	            city: \"Moscow\",\n	            street: \"Lenina\",\n	            building: \"12\"\n	        },\n	        validate: function (value) {\n	            if (value.city == '')\n	                return 'city is required!';\n	        },\n	        display: function (value) {\n	            if (!value) {\n	                $(this).empty();\n	                return;\n	            }\n	            var html = '<b>' + $('<div>').text(value.city).html() + '</b>, ' + $('<div>').text(value.street)\n	                .html() + ' st., bld. ' + $('<div>').text(value.building).html();\n	            $(this).html(html);\n	        }\n	    });\n	\n	    $('#user .editable').on('hidden', function (e, reason) {\n	        if (reason === 'save' || reason === 'nochange') {\n	            var $next = $(this).closest('tr').next().find('.editable');\n	            if ($('#autoopen').is(':checked')) {\n	                setTimeout(function () {\n	                    $next.editable('show');\n	                }, 300);\n	            } else {\n	                $next.focus();\n	            }\n	        }\n	    });			\n\n	})\n\n</script>\n\n<?php \n	//include footer\n	include(\"inc/footer.php\"); \n?>",
+			"file": "/var/www/saas/plugins.php",
+			"file_size": 66696,
+			"file_write_time": 130392924639331537,
+			"settings":
+			{
+				"buffer_size": 64728,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/ajax/getActions.php",
+			"settings":
+			{
+				"buffer_size": 902,
+				"line_ending": "Unix",
+				"name": "<?"
+			}
+		},
+		{
+			"contents": "<? \n\n/*-- widget options \n	usage: <div class=\"jarviswidget\" id=\"wid-id-0\" data-widget-editbutton=\"false\">\n	\n	data-widget-colorbutton=\"false\"	\n	data-widget-editbutton=\"false\"\n	data-widget-togglebutton=\"false\"\n	data-widget-deletebutton=\"false\"\n	data-widget-fullscreenbutton=\"false\"\n	data-widget-custombutton=\"false\"\n	data-widget-collapsed=\"true\" \n	data-widget-sortable=\"false\"\n*/\n\nfunction createWidget($devices, $id){\n\n	require('/var/www/saas/database/conn.php');\n	//Buscaremos el modelo\n    $url = sprintf(\"_design/device/_view/model?key=\\\"%s\\\"\",$devices->model);\n	try {\n	  $result = $sag->get($url)->body;\n	  $model= $result->rows[0]->value;\n	}catch(SagException $e) { error_log('Error: '. $e->getMessage());}\n\n	if($devices->data->rssi <-100)\n		$rssitxt = \"Pobre\";	\n	else if ( ($devices->data->rssi <-85) && ($devices->data->rssi >=-100))\n		$rssitxt = \"Buena\";	\n	else if (($devices->data->rssi <-60) && ($devices->data->rssi >=-85))\n		$rssitxt = \"Muy Buena\";\n	else if ($devices->data->rssi >-60)\n		$rssitxt = \"Excelente\";\n	else\n	    $rssitxt =  \"No Disponible\";\n    \n	$id++;\n	$widgt_hdr=\"<div class='jarviswidget jarviswidget-\". $model->color .\" jarviswidget-sortable' id='wid-id-\". $id . \"' data-widget-colorbutton='false' data-widget-deletebutton='false' data-widget-fullscreenbutton='false' data-widget-editbutton='false' role='widget'>\n				<header role='heading'>\n				<div class='jarviswidget-ctrls' role='menu'>  \n				    <a href='#' class='button-icon jarviswidget-toggle-btn' rel='tooltip' title='' data-placement='bottom' data-original-title='Minimizar'><i class='fa fa-minus '></i></a> \n				</div>\n				<h2><strong>\". $devices->name . \"</strong></h2>				\n				<span class='jarviswidget-loader'><i class='fa fa-refresh fa-spin'></i></span></header>\n				<div role='content'>\n					<div class='widget-body'>\";\n\n    //Put here extra information\n    $extras = [\n    	\"rssitxt\" => $rssitxt\n    ];\n\n   switch($model->specs->class)\n   {\n   		case \"LED\":	\n   			if($model->specs->subclass==\"DIM\")	$widgt_body = widget_LEDDIM($devices,$model,$id,$extras);\n   			if($model->specs->subclass==\"TOG\")	$widgt_body = widget_LEDTOG($devices,$model,$id,$extras);\n   		break;\n   }\n\n	$widgt_bot = \"</div>\n				</div>\n			</div>\";\n\n	return $widgt_hdr . $widgt_body . $widgt_bot;\n	\n}\n// Batería baja:\n// <li><span class='label label-danger'><i class='fa fa-sort-amount-desc'> Bat &nbsp;</i></span>\n\nfunction widget_LEDDIM($devices,$model,$id,$extras){\n\n	if($devices->data->status ==\"Connected\")\n	{\n			if($devices->data->value == 0)\n				$btnclass = \"btn-default txt-color-blueLight\";\n			else\n				$btnclass = \"btn-success\";\n	}\n	else \n	{\n		$btnclass = \"btn-info\";\n	}\n\n	$wid = \"<table class='table borderless table-condensed'>\n  			  <tbody>\n			  <tr>\n				<td valign='middle' align='center'>\n				<div id='\". $id .\"-\". $devices->_id .\"' devicet='device' lh='\".$devices->linuxhub.\"' edtype='\". $model->specs->class . \"' edsubtype='\". $model->specs->subclass .\"' LnkID='\". $devices->LnkID .\"'></div>\n				<a href='javascript:power_dimmer(\\\"\".$id.\"-\".$devices->_id.\"\\\");' id='btn-\".$id.\"-\". $devices->_id .\"' LnkID='\". $devices->LnkID .\"' class='btn \". $btnclass . \" btn-circle btn-xl power_switch' >\n			    <i class='glyphicon glyphicon-off'></i></a>\n				</td>\n				<td  align='center'>\n					<div style='display: inline; width: 120px; height: 120px;'>						\n						<input id='knob-\".$id.\"-\".$devices->_id .\"' edtype='\". $model->specs->class . \"' edsubtype='\". $model->specs->subclass .\"' class='knob' data-width='150' data-step='10' data-height='150' data-linecap='round' data-displayinput='true' value='\". $devices->data->value.\"' data-displayprevious='true' data-fgcolor='#428BCA' \n						style='width: 64px; height: 40px; position: absolute; vertical-align: middle; margin-top: 40px; margin-left: -92px; border: 0px; background-image: none; font-weight: bold; font-style: normal; font-variant: normal; font-size: 24px; \n						line-height: normal; font-family: Arial; text-align: center; color: rgb(66, 139, 202); padding: 0px; -webkit-appearance: none; background-position: initial initial; background-repeat: initial initial;'>\n					</div>\n				</td>\n			 </tr> \n			  <tr >\n			   <td colspan='2' >\n			   <div class='well no-padding' >\n					<ul class='list-inline msgbox txt-color-blueLight' id='txt-\".$id.\"-\" . $devices->_id . \"' >\n				        <li><i class='fa fa-sun-o'> \".   $devices->data->temp .\"°C</i></li>\n				        <li><i class='fa fa-signal'> \".  $extras[\"rssitxt\"] .\"</i></li>\n					</ul>\n				<div id='msg-\".$id.\"-\" . $devices->_id . \"' class='msgr msgbox txt-color-greenLight' style='padding-bottom:5px;'>\n				<i class='fa fa-check'> Mensaje enviado </i></div>\n				</div>\n			   </td>\n			   </tr>\n 			</tbody>\n			</table>\";\n\n	return $wid;\n\n}\n\nfunction widget_LEDTOG($devices,$model,$id,$extras){\n\n	if($devices->data->value == 0)\n		$checkstatus = \"\";\n	else\n		$checkstatus = \"checked\";\n\n	$wid =  \"<table class='table borderless table-condensed'>\n  			  <tbody>\n			  <tr>\n			    <td width='60%'>\n				<div id='\".$id.\"-\".$devices->LnkID .\"' devicet='device' lh='\".$devices->linuxhub.\"' edtype='\". $model->specs->class . \"' edsubtype='\". $model->specs->subclass .\"' LnkID='\". $devices->LnkID .\"'></div>\n\n			    <div class='onoffswitch_mod'>\n				    <input type='checkbox' name='onoffswitch_mod' onclick='javascript:on_off(\\\"\".$id.\"-\". $devices->LnkID .\"\\\");' class='onoffswitch_mod-checkbox' id='onoff-\".$id.\"-\" . $devices->LnkID . \"'  \". $checkstatus .\">\n				    <label class='onoffswitch_mod-label' for='onoff-\".$id.\"-\" . $devices->LnkID . \"'>\n				        <div class='onoffswitch_mod-inner'></div>\n				        <div class='onoffswitch_mod-switch'></div>\n				    </label>\n				</div>\n			    </td>\n			    <td><div class='well no-padding'>\n			    	 <ul class='list-unstyled msgbox txt-color-blueLight' id='txt-\".$id.\"-\" . $devices->LnkID . \"' >\n				        <li><i class='fa fa-sun-o'> \". $devices->data->temp .\"°C</i></li>\n				        <li><i class='fa fa-signal'> \" . $extras[\"rssitxt\"] .\"</i></li>\n					</ul>\n					<div id='msg-\".$id.\"-\" . $devices->LnkID . \"' class='msgr msgbox txt-color-greenLight' style='padding-bottom:5px;'><i class='fa fa-check'> Mensaje enviado </i></div>\n					</div>\n			    </td>\n			   </tr> \n			</tbody>\n			</table>\";\n\n	return $wid;\n	\n}\n\n?>\n",
+			"file": "/var/www/saas/lib/widget.php",
+			"file_size": 6247,
+			"file_write_time": 130458128170753886,
+			"settings":
+			{
+				"buffer_size": 6243,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/control_dev.php",
+			"settings":
+			{
+				"buffer_size": 3622,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/device_add.php",
+			"settings":
+			{
+				"buffer_size": 15653,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/database/device_db_i.php",
+			"settings":
+			{
+				"buffer_size": 2365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/database/zone_db_i.php",
+			"settings":
+			{
+				"buffer_size": 1938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/index.html",
+			"settings":
+			{
+				"buffer_size": 8023,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/login.html",
+			"settings":
+			{
+				"buffer_size": 9302,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/views/forms/validation.html",
+			"settings":
+			{
+				"buffer_size": 17007,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/views/forms/form-templates.html",
+			"settings":
+			{
+				"buffer_size": 48033,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/views/forms/plugins.html",
+			"settings":
+			{
+				"buffer_size": 64280,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/devices.php",
+			"settings":
+			{
+				"buffer_size": 6129,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/inc/wireless.php",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/js/libs/elements.js",
+			"settings":
+			{
+				"buffer_size": 3519,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/mario/dev/perl/sendmotox2.pl",
+			"settings":
+			{
+				"buffer_size": 5696,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/mario/dev/perl/sendmotox3.pl",
+			"settings":
+			{
+				"buffer_size": 1965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/js/libs/mqfunctions.js",
+			"settings":
+			{
+				"buffer_size": 4377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/json/getType.php",
+			"settings":
+			{
+				"buffer_size": 519,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/database/device_db_r.php",
+			"settings":
+			{
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/lib/groupwidget.php",
+			"settings":
+			{
+				"buffer_size": 5956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/sendSms.php",
+			"settings":
+			{
+				"buffer_size": 1987,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/test/nodephp/mqclient.js",
+			"settings":
+			{
+				"buffer_size": 242,
+				"line_ending": "Unix",
+				"name": "var mqtt = require('mqtt')"
+			}
+		},
+		{
+			"file": "/var/www/test/nodephp/js/nodeServer.js",
+			"settings":
+			{
+				"buffer_size": 883,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/backbone/test1.htm",
+			"settings":
+			{
+				"buffer_size": 678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "commander.py",
+			"settings":
+			{
+				"buffer_size": 5111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/mario/dev/python/args.py",
+			"settings":
+			{
+				"buffer_size": 892,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "globvars.py",
+			"settings":
+			{
+				"buffer_size": 389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/node.php",
+			"settings":
+			{
+				"buffer_size": 1834,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/saas/inc/config.ui.php",
+			"settings":
+			{
+				"buffer_size": 2845,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/saas/general-elements.php",
+			"settings":
+			{
+				"buffer_size": 102709,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ap.py",
+			"settings":
+			{
+				"buffer_size": 2256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "messenger.py",
+			"settings":
+			{
+				"buffer_size": 3118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#!/usr/bin/python  \n\nimport logging\nimport globvars as gv\nimport paho.mqtt.client as paho",
+			"file": "mqtt.py",
+			"file_size": 89,
+			"file_write_time": 130420093609458925,
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"selec",
+				"Rot13 Selection"
+			],
+			[
+				"tog",
+				"Toggle Block Comment"
+			],
+			[
+				"t",
+				"Toggle Block Comment"
+			],
+			[
+				"",
+				"File: Close All"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 209.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"version",
+			"perl",
+			"pels",
+			"exit"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/saas/ajax/getDevices.php",
+		"/var/www/newsmart/DEVELOPER/AngularJS_version/js/app.js",
+		"/var/www/newsmart/DEVELOPER/AngularJS_version/js/ng/ng.app.js",
+		"/var/www/newsmart/DEVELOPER/AngularJS_version/js/ng/ng.controllers.js",
+		"/var/www/newsmart/DEVELOPER/AngularJS_version/js/ng/ng.directives.js",
+		"/var/www/saas/control_grp.php",
+		"/var/www/saas/database/status_db_u.php",
+		"/var/www/saas/js/libs/elements.js",
+		"/var/www/newsmart/DEVELOPER/AngularJS_version/views/forms/form-elements.html",
+		"/var/www/newsmart/DEVELOPER/AngularJS_version/views/angular/ui.html",
+		"/var/www/newsmart/DEVELOPER/AngularJS_version/php/demo-contacts.php",
+		"/home/mario/dev/python/linuxhub/globvars.pyc",
+		"/var/www/saas/lib/config.php",
+		"/var/www/saas/inc/init.php",
+		"/var/www/saas/inc/header.php",
+		"/var/www/saas/action_add.php",
+		"/var/www/saas/groups.php",
+		"/var/www/saas/database/zone_db_i.php",
+		"/var/www/saas/ajax/getSelect.php",
+		"/var/www/saas/zone_add.php",
+		"/var/www/saas/ajax/getSelectGrp.php",
+		"/var/www/saas/lib/selects.php",
+		"/var/www/saas/json/getType.php",
+		"/var/www/saas/json/getGroupMbrs.php",
+		"/var/www/saas/js/libs/mqfunctions.js",
+		"/var/www/pms/connect/oConn2.php",
+		"/var/www/pms/connect/oConn.php",
+		"/var/www/tsg/lib/conn.php",
+		"/var/www/pms/loginAction.php",
+		"/var/www/tsg/cobertura2G.php",
+		"/var/www/tsg/add.php",
+		"/var/www/saas/database/conn.php",
+		"/var/www/saas/lib/widget.php",
+		"/var/www/saas/database/group_db_i.php",
+		"/var/www/saas/database/device_db_i.php",
+		"/var/www/pms/login.php",
+		"/var/www/pms/open.php",
+		"/home/mario/oConn2.php",
+		"/home/mario/oConn.php",
+		"/var/www/saas/css/your_style.css",
+		"/var/www/saas/sagtest.php",
+		"/var/www/saas/testjson.php",
+		"/var/www/saas/getData.php",
+		"/var/www/saas/inc/scripts.php",
+		"/var/www/saas/js/nodeClient.js",
+		"/var/www/saas/zones.php",
+		"/var/www/test/camera/index.html",
+		"/var/www/test/camera/interactioncam.js",
+		"/home/mario/dev/python/linuxhub/tmp.py",
+		"/home/mario/dev/perl/dummy.sh",
+		"/home/mario/Dropbox/Engineering/Development/android/hmkcode/android-social-signin/src/com/hmkcode/android/signin/MainActivity.java",
+		"/home/mario/Dropbox/Engineering/Development/android/hmkcode/android-navigation-drawer/res/values/strings.xml",
+		"/home/mario/Dropbox/Engineering/Development/android/hmkcode/android-navigation-drawer/res/layout/drawer_listview_item.xml",
+		"/home/mario/Dropbox/Engineering/Development/android/hmkcode/android-navigation-drawer/res/layout/activity_main.xml",
+		"/home/mario/Dropbox/Engineering/Development/android/hmkcode/android-navigation-drawer/src/com/hmkcode/android/MainActivity.java",
+		"/home/mario/dev/python/linuxhub/messenger.py",
+		"/home/mario/dev/python/linuxhub/globvars.py",
+		"/var/www/saas/php/twilio/sendSms.php",
+		"/var/www/saas/database/provision.sh",
+		"/var/www/saas/testcouch.php",
+		"/var/www/saas/blank_.php",
+		"/var/www/saas/index.php",
+		"/var/www/saas/testcouch2.php",
+		"/var/www/saas/ajax/getElements.php",
+		"/home/mario/dev/perl/sendmotox.pl",
+		"/var/www/saas/js/app.js",
+		"/var/www/saas/zone.php",
+		"/var/www/saas/control_zone.php",
+		"/var/www/saas/lib/groupwidget.php",
+		"/var/www/saas/widgets.php",
+		"/var/www/saas/css/pace.css",
+		"/var/www/saas/js/smartwidgets/jarvis.widget.js",
+		"/var/www/saas/inc/nav.php",
+		"/var/www/saas/control_dev.php",
+		"/var/www/saas/device_add.php",
+		"/var/www/saas/database/device_db_r.php",
+		"/var/www/saas/zone_view.php",
+		"/var/www/saas/js/smartwidgets/jarvis.widget.min.js",
+		"/var/www/saas/ajax/byGroup.php",
+		"/var/www/saas/lib/widget_status.php",
+		"/var/www/saas/bootstrap-forms.php",
+		"/home/mario/dev/perl/lab/template.xml",
+		"/var/www/saas/css/smartadmin-production.css",
+		"/var/www/stats/json/j_2tc.php",
+		"/var/www/stats/stats_2fc.php",
+		"/var/www/saas/lib/mqtt.php",
+		"/var/www/saas/grid.php",
+		"/var/www/smartadmin/DEVELOPER/PHP/PHP/jqui.php",
+		"/var/www/saas/devices.php",
+		"/var/www/saas/calendar.php",
+		"/var/www/saas/inc/wireless.php",
+		"/home/mario/Engineering/Development/ti/simpliciTI/eZ430-RF2500 Wireless Sensor Monitor/Embedded/CCS/Code/Applications/vlo_rand.h",
+		"/home/mario/Engineering/Development/ti/simpliciTI/eZ430-RF2500 Wireless Sensor Monitor/Embedded/CCS/Code/Applications/vlo_rand.asm",
+		"/home/mario/UsersUGDB_Mario",
+		"/home/mario/dev/python/linuxhub/globals.py",
+		"/var/www/test/diapo.1.0.4/diapo/example.htm",
+		"/home/mario/dev/perl/retencion.pl",
+		"/home/mario/dev/perl/sendGmail.pl",
+		"/home/mario/Dropbox/Engineering/Development/perl/moto/fileout.pl",
+		"/home/mario/Dropbox/Engineering/Design/Web/CSS/light-blue/ui_buttons.html",
+		"/home/mario/dev/c/graph.cpp",
+		"/var/www/saas/publish.htm",
+		"/var/www/saas/template.htm",
+		"/home/mario/Dropbox/Engineering/Design/Web/CSS/light-blue/css/application.min.css",
+		"/var/www/tsg/view.php",
+		"/var/www/saas/light.htm",
+		"/home/mario/Dropbox/Engineering/Design/Web/CSS/light-blue/index.html",
+		"/home/mario/Dropbox/Engineering/Design/Web/CSS/light-blue/config.rb",
+		"/home/mario/projects/mqtt/web/index.html",
+		"/var/www/stats/dashboard.php",
+		"/var/www/stats/stats_dash.php",
+		"/var/www/stats/date.js",
+		"/home/mario/Engineering/Development/android/Android-Paho-MQTT-Service-master/src/com/jessefarebro/mqtt/MqttService.java",
+		"/var/www/lab/request.php",
+		"/var/www/stats/json/j_moumodel.php",
+		"/home/mario/dev/perl/stats/simcalls/SimCalls.pl",
+		"/home/mario/dev/perl/stats/simcalls/getsimcalls.sh",
+		"/var/www/tsg/files/file.php",
+		"/var/www/tsg/map3G.php",
+		"/var/www/tsg/files/Map_130705-161023-.kml",
+		"/var/www/tsg/cobertura3G.php",
+		"/home/mario/Engineering/Development/c/test.c",
+		"/home/mario/dev/perl/stats/simcalls/analyze_m.sh",
+		"/home/mario/imsis",
+		"/home/mario/dev/perl/stats/today.pl",
+		"/home/mario/dev/perl/stats/simcalls/analyzed-DIG1A_DIC_01_al_07.csv",
+		"/home/mario/dev/perl/stats/simcalls/analyzed-DIG1B_DIC_01_al_07.csv",
+		"/home/mario/dev/perl/stats/files/1B/dig_20131211_emt_stats.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"checkbox-inline",
+			"tabs inside",
+			"tab",
+			"tabs",
+			"cols",
+			"additional",
+			"select2",
+			"({\n",
+			"devices",
+			"current_zones",
+			"devices",
+			"groupmodels",
+			"groupmodel",
+			"hexname",
+			"Group_id",
+			"field",
+			"spec",
+			"family",
+			"alias",
+			"groups",
+			"groupinfo",
+			"hostusr",
+			"devices->rssi ",
+			"modelo",
+			"$devices[\"RSSI\"]",
+			"Decoded",
+			"decoded",
+			"Decoded",
+			"decoded",
+			"Decoded",
+			"decoded",
+			"print",
+			"i",
+			"this",
+			"temp",
+			"temperature",
+			"Temperature",
+			"easy",
+			"easyPie",
+			"easy",
+			"size",
+			"pace",
+			"jarvis",
+			"pace",
+			"descripcion",
+			"zonename",
+			"dispositivos",
+			";\n",
+			"tabs",
+			"				$tabs",
+			"$tabs",
+			"				$tabs",
+			"$tabs",
+			"tabs",
+			"30px",
+			"_saveSettingsWidget",
+			"hidden",
+			"localStorage",
+			"wid-id",
+			"LnkID",
+			"id",
+			"btnclass",
+			"dbConn",
+			"onoffswitch",
+			"\"",
+			"groupmembers",
+			"devices",
+			"$devices",
+			"devices",
+			"setTimeo",
+			"jarviswidget-color-blue",
+			"jarviswidget-color",
+			"jarviswidgets-color",
+			"rows",
+			"dialog_simple",
+			"&gt;&lt;",
+			"&lt;",
+			"Description",
+			"		\n",
+			"draggable",
+			"json",
+			"grp_impar",
+			"LnkID",
+			"message[6]",
+			"message[2]",
+			"public_broker",
+			"serialdev",
+			"ap",
+			"AP",
+			"ap",
+			"cmdACK",
+			"fromAP",
+			"cmdACK",
+			"broker",
+			"no response",
+			"error",
+			"k",
+			"cmdACK",
+			"hoy",
+			"data1",
+			"dateDiff",
+			"wrapper",
+			"section",
+			"min.map",
+			"\";\n",
+			"llamadas por hora",
+			"fecha",
+			"foo",
+			"9",
+			":",
+			"sendevent",
+			"0002",
+			"0032",
+			"0036",
+			"000002a1",
+			"0002",
+			"003a",
+			"0035",
+			"0039",
+			"00000000",
+			"StartDate",
+			"textarea",
+			"echo",
+			"\"<i class='icon-asterisk icon-white icon-leftm'></i>\"",
+			"\");\n",
+			"style",
+			"calendar",
+			"High"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"onoffswitch_mod",
+			"'",
+			"</",
+			"<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 21,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/saas/zones.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3812,
+								3812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2250.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/saas/ajax/getElements.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/saas/action_add.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5544,
+								5544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1845.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/saas/form-templates.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44386,
+								44386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17426.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/saas/ajax/getSelect.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								964,
+								964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 214.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/saas/plugins.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2890,
+								2890
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 931.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/saas/ajax/getActions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								841,
+								841
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/saas/lib/widget.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/saas/control_dev.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1785,
+								1785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/www/saas/device_add.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/var/www/saas/database/device_db_i.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/var/www/saas/database/zone_db_i.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 303.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1382,
+								1382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/views/forms/validation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/views/forms/form-templates.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/var/www/newsmart/DEVELOPER/AngularJS_version/views/forms/plugins.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/var/www/saas/devices.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/var/www/saas/inc/wireless.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/var/www/saas/js/libs/elements.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2775,
+								2775
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/home/mario/dev/perl/sendmotox2.pl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1389,
+								1389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Perl/Perl.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/home/mario/dev/perl/sendmotox3.pl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1819,
+								1819
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Perl/Perl.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 555.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/var/www/saas/js/libs/mqfunctions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3745,
+								3745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1065.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/var/www/saas/json/getType.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 24,
+					"file": "/var/www/saas/database/device_db_r.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/var/www/saas/lib/groupwidget.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4711,
+								4711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2310.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/var/www/saas/sendSms.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1233,
+								1233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/var/www/test/nodephp/mqclient.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var mqtt = require('mqtt')",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/var/www/test/nodephp/js/nodeServer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/var/www/backbone/test1.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								447,
+								447
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "commander.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2441,
+								2441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/home/mario/dev/python/args.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "globvars.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/var/www/saas/node.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/var/www/saas/inc/config.ui.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2839,
+								2839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1323.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/var/www/saas/general-elements.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 102709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18956,
+								18956
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8389.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "ap.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "messenger.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "mqtt.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.788914198937,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "/home/mario/dev/sublime-ws/stats.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wire",
+				"/var/www/saas/inc/wireless.php"
+			],
+			[
+				"con",
+				"/var/www/saas/control_dev.php"
+			],
+			[
+				"",
+				"/var/www/saas/device_add.php"
+			],
+			[
+				"mq",
+				"/var/www/saas/js/libs/mqfunctions.js"
+			],
+			[
+				"add",
+				"/var/www/saas/device_add.php"
+			],
+			[
+				"db",
+				"/var/www/saas/database/device_db_i.php"
+			],
+			[
+				"devi",
+				"/var/www/saas/device_add.php"
+			],
+			[
+				"sel",
+				"/var/www/saas/ajax/getSelect.php"
+			],
+			[
+				"get",
+				"/var/www/saas/ajax/getSelect.php"
+			],
+			[
+				"actio",
+				"/var/www/saas/action_add.php"
+			],
+			[
+				"new",
+				"/var/www/newsmart/DEVELOPER/AngularJS_version/index.html"
+			],
+			[
+				"el",
+				"/var/www/saas/js/libs/elements.js"
+			],
+			[
+				"ad",
+				"/var/www/saas/device_add.php"
+			],
+			[
+				"vars",
+				"~/dev/python/args.py"
+			],
+			[
+				"com",
+				"~/dev/python/linuxhub/commander.py"
+			],
+			[
+				"u",
+				"/var/www/saas/inc/config.ui.php"
+			],
+			[
+				"plu",
+				"/var/www/saas/plugins.php"
+			],
+			[
+				"zone",
+				"/var/www/saas/zones.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/stats/stats.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

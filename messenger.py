@@ -138,6 +138,5 @@ def parse_message(topic, payload):
 	#Mensaje de sistema
 
 	cmd2ap =  "I|0x%02X|0x%02X|0x%02X|0x%02X,0x%02X,0x%02X,0x%02X|0x%02X|0x%04X|0x%02X|%d|%02d|U" % (cmd,msg,arg,ad1,ad2,ad3,ad4,lnk,grp,typ,ack,add)
-	logging.debug("%s%s",LXP,cmd2ap)
-	
+
 	return cmd2ap

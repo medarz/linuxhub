@@ -5,9 +5,9 @@
 # 17-Abr-2012 - version inicial 
 # 11-Abr-2014 - se actualiza a Paho
 # 13-May-2014 - Se anexan mensajes en log
+# 02-Jul-2014 - Se agrega conexion con BD
                                                                                                                                  
-import serial                                                                                                                                                 
-import sqlite3                                                                                                                                                
+import serial                                                                                                                                                                                                                                                                                               
 import datetime  
 import time
 import threading
@@ -58,7 +58,7 @@ def on_subscribe(mqttc, obj, mid, granted_qos):
     logging.debug("%sSubscribed: %s",LXP,str(mid))
 
 def publica():
-	mqttc.publish.single("paho/test/single", "test", hostname="medarz.info")
+	mqttc.publish.single("paho/test/single", "test", hostname=gv.public_host)
 
 def on_log(mqttc, obj, level, string):
 	logging.debug("%s%s",LXP,string)
@@ -87,7 +87,6 @@ if __name__ == "__main__":
 	args = p.parse_args()
 
 	connected = False
-	mac = get_mac()
 
 	LXP = "LH > "
 	APP = "AP > "
@@ -134,11 +133,11 @@ if __name__ == "__main__":
 		mqttc.connect(gv.public_broker, gv.port, 60)
 
 		#Subscriptions
-		private_device = `mac`+"/+/+/+/device/+/+"
-		private_group  = `mac`+"/+/+/+/group/+/+"
+		private_device = gv.lh+"/+/+/+/device/+/+"
+		private_group  = gv.lh+"/+/+/+/group/+/+"
 
 		#Posiblemente esta conexion haya que habilitarla solo "on request"
-		private_system = `mac`+"/+/system/+/+/+"
+		private_system = gv.lh+"/+/system/+/+/+"
 
 		mqttc.subscribe(private_device, 0)
 		mqttc.subscribe(private_group, 0)
@@ -158,7 +157,7 @@ if __name__ == "__main__":
 	    cleanup()
 	# handle app closure
 	except (KeyboardInterrupt):
-		logging.error("%sInterrupt received - END",LXP)
+		logging.critical("%sInterrupt received - Exiting...",LXP)
 		cleanup()
 	except (RuntimeError):
 	    logging.critical("%sRuntime Error",LXP)
