@@ -40,7 +40,7 @@ def on_message(mqttc, obj, msg):
 		serialCMD = messenger.parse_message(msg.topic, msg.payload)
 		if  serialCMD.split()[0][0] != "I":
 			logging.warning("%sBAD COMMAND: %s",LXP,serialCMD)
-			#escribir comando para limpiar el buffer serial
+			#TODO: escribir comando para limpiar el buffer serial
 		else:
 			logging.debug("%s%s",LXP,serialCMD)
 			serial_port.write(serialCMD)
@@ -80,7 +80,7 @@ def read_from_port(ser):
 if __name__ == "__main__":
 
 	p = argparse.ArgumentParser(
-	    description='Copyright MBR Solutions. All rights reserved. 2014'
+	    description='Copyright Medarz Ingenieria. All rights reserved. 2014'
 	)
 	p.add_argument("-v", "--verbose", const = 1, default = 0, type = int, nargs="?", help="Increase verbosity: 0 = warnings, 1 = info, 2 = debug")
 	p.add_argument("-s", "--screen", help="Print on screen instead of log file", action="store_true")
@@ -108,7 +108,7 @@ if __name__ == "__main__":
 		logging.basicConfig(filename='/var/log/mbr/commander.log',format='%(asctime)s: %(levelname)s\t%(message)s', datefmt='%Y-%m-%d %H:%M:%S',level=log_l)
 	
 	logging.info("%sInitializing...",LXP)
-	logging.debug("%sOpening serial port",LXP)
+	logging.debug("%sOpening serial port: %s",LXP, gv.serialdev)
 
 	try:
 	    serial_port = serial.Serial(gv.serialdev, 9600, timeout=20)
@@ -118,7 +118,7 @@ if __name__ == "__main__":
 	    raise SystemExit
 
 	try:
-		logging.debug("%sID: %s",LXP,mac)
+		logging.debug("%sID: %s",LXP,gv.lh)
 		mqttc = paho.Client()
 		serial_port.flushInput()
 		

@@ -1,10 +1,9 @@
 #!/usr/bin/python  
 import pycouchdb
-import logging
 
 def comission():
 	from uuid import getnode as get_mac
-	logging.info("%sComissioning System..",LXP)
+	#logging.info("%sComissioning System..",LXP)
 	mac = get_mac()
 	cfg['linuxhub']=`mac`
 	lh=`mac`
@@ -19,7 +18,8 @@ def comission():
 		update_grp["linuxhub"] = lh
 		db.save(update_grp)
 
-	logging.info("%sSaving to database..",LXP)
+	#logging.info("%sSaving to database..",LXP)
+
 
 LXP = "LH > "
 APP = "AP > "
@@ -41,7 +41,7 @@ if lhu is None:
 #####################################
 serialdev 		 = '/dev/ttyUSB0'
 public_host	     = cfg['wan']['host'].encode("ascii")
-public_broker    = cfg['mq']['host'].encode("ascii")
+public_broker    = cfg['wan']['host'].encode("ascii") #mq / wan
 port      		 = cfg['mq']['port']		
 cmdACK 			 = True
 dbName			 = "local"
@@ -50,8 +50,4 @@ lh 				 = lhu.encode('ascii')
 tipoED = {'led': 1, 'curtain': 2, 'sensor': 3}
 
 
-logging.debug("%s%s",LXP,lh)
-
-
-
-
+#logging.debug("%s%s",LXP,lh)
