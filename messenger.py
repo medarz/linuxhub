@@ -39,6 +39,7 @@ def parse_message(topic, payload):
 			ack = 1
 
 	if  edtype != "system":
+
 		command = message[6]
 		if gv.tipoED.has_key(edtype):
 				typ = gv.tipoED[edtype]
@@ -47,87 +48,51 @@ def parse_message(topic, payload):
 
 		action  = command.rstrip()    
 
+    ###################################################################################################
 		if device == "device":
 			lnk = int(message[5],0)
+			cmd=0x11 #Send_ByID
 
-			if edtype == "led":
-                
-                #Comandos comunes para todos los tipos de LED
-
-                #power ON/OFF  - compatible entre dimming y ON/OFF
-				if  action == "power":
-					cmd=0x11 #Send_ByID
-					msg=0x40 #Power
-
-				elif action == "setgroup":
-					cmd=0x20  #SET_GROUP
-					msg=0x20  #SET_GROUP
-					grp=int(args,0)  # Debe llegar - 0x0001
-					
-				elif action == "onboardled":
-					
-					if args == "ON":
-						cmd=0x11 #Send_ByID
-						msg=0xA1 
-					elif args == "OFF":
-						cmd=0x11
-						msg=0xA0
-					elif args == "TOGGLE":
-						cmd=0x11
-						msg=0xA3	
-					else:
-						return "MessageNotRecognized"
-
-				elif action == "dimming":
-
-					if subtype == "dim":
-						cmd=0x11 #Send_byID
-						msg=0x50 #DIM_PWM
-						arg=int(payld[0])
-					else:
-						return "CommandNotSupported"
-				else:
-					return "CommandNotRecognized"
-			else:
-					return "DeviceNotSupported"
-					
 		elif device == "group":
 			grp = int(message[5])
-			if edtype == "led":
-                
-                #Comandos comunes para todos los tipos de LED
-                #power ON/OFF  - compatible entre dimming y ON/OFF
-				if  action == "power":
-					print LXP + "Power:", args
+			cmd=0x12 #Send_ByGroup
+
+		#Comandos comunes para todos los tipos de LED
+		if edtype == "led":
+
+            #power ON/OFF  - compatible entre dimming y ON/OFF
+			if  action == "power":
+				msg=0x40 #Power
+
+			elif action == "setgroup":
+				cmd=0x20  #SET_GROUP
+				msg=0x20  #SET_GROUP
+				grp=int(args,0)  # Debe llegar - 0x0001
 				
-				elif action == "onboardled":
-					
-					if args == "ON":
-						cmd=0x12 #Send_ByGroup
-						msg=0xA1 
-					elif args == "OFF":
-						cmd=0x12
-						msg=0xA0
-					elif args == "TOGGLE":
-						cmd=0x12
-						msg=0xA3	
-					else:
-						return "MessageNotRecognized"
-
-				elif action == "dimming":
-
-					if subtype == "dim":
-						cmd=0x12 #Send_byID
-						msg=0x50 #DIM_PWM
-						arg=int(payld[0])
-					else:
-						return "CommandNotSupported"
+			elif action == "onboardled":
+				
+				if args == "ON":
+					msg=0xA1 
+				elif args == "OFF":
+					msg=0xA0
+				elif args == "TOGGLE":
+					msg=0xA3	
 				else:
-					return "CommandNotRecognized"
-			else:
-					return "DeviceNotSupported"
-			#print LXP + "Group:", group_id
+					return "MessageNotRecognized"
 
+			elif action == "dimming":
+
+				if subtype == "dim":
+					msg=0x50 #DIM_PWM
+					arg=int(payld[0])
+				else:
+					return "CommandNotSupported"
+			else:
+				return "CommandNotRecognized"
+		else:
+				return "DeviceNotSupported"
+
+	###################################################################################
 	# ---------------- System Messages ------------------
 	else:
 		if message[3]=="config":

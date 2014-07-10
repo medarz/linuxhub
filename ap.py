@@ -21,43 +21,37 @@ def handle_data(data):
 		if gv.cmdACK == False:
 			if command == "CMD" and status =="OK":
 				logging.debug("%sCommandInProgress",APP)
-				print APP + "CommandInProgress"
 				gv.cmdACK = True
 		elif gv.cmdACK == True:
 			if command == "SEND" and status =="OK":
 				logging.debug("%sCommandExecuted",APP)
-				print APP + "CommandExecuted"
 			elif command == "DATA":
-			    print APP + status
+				logging.debug("%s%s",APP,status)
 
 		if command == "INITIALIZING":
-				print APP + "Access point restarted."
+				logging.debug("%sAccess point restarted",LXP)
 				gv.cmdACK = True
 
 		if command == "JOIN":
 			if status == "PENDING":
 				logging.debug("%sJoinPending",APP)
-				print APP + "JoinPending"
 				gv.cmdACK = True
 			elif status == "SUCCESS":
 				logging.debug("%sJoinSuccess",APP)
 				gv.cmdACK = True
-				print APP + "JoinSuccess"
 			elif status == "FAIL":
 				logging.error("%sJoinFailed",APP)
-				print APP + "JoinFailed"
 				gv.cmdACK = True
 
 		#REGISTER|NEWDEV|0x01|0x79|0x56|0x35|0x12|0x33|0x44|0x43|0x41
 		if command=="REGISTER":
 			if status =="NEWDEV":
 				#TEnemos que obtener la informacion del AP y luego formar el mensaje
-				print APP + data
+				logging.debug("%s%s",APP,data)
 
 				#LinkxID Invalido.. La direccion ya existe
 				if fromAP[3]=="0x":
 					logging.error("%sAddressError",APP)
-					print APP + "AddressError"
 					return 
 			          
 				linkID = int(fromAP[2], 0)
@@ -73,6 +67,6 @@ def handle_data(data):
 				#From database read model, type, subtype
 				msg =  "0x%02X|0x%02X%02X%02X%02X|0x%02X|0x%02X|0x%02X|0x%02X" % (linkID,Addr1,Addr2,Addr3,Addr4,Type,Model,Sensors,Flags)
 				#Enviar commando MQTT de publish
-				publish.single("145385902736874L/user/web/config/add/confirm", msg, hostname=gv.public_broker)
-				logging.info("%sPublish: 145385902736874L/user/web/config/add/confirm %s",LXP,msg)
+				publish.single(gv.lh +"/user/web/config/add/confirm", msg, hostname=gv.public_broker)
+				logging.debug("%sPublshed: %s/user/web/config/add/confirm %s",LXP, gv.lh ,msg)
      
