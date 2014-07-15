@@ -38,9 +38,12 @@ def on_message(mqttc, obj, msg):
 	
 	if gv.cmdACK == True:
 		serialCMD = messenger.parse_message(msg.topic, msg.payload)
-		if  serialCMD.split()[0][0] != "I":
+		if  serialCMD[:1] != "I":
 			logging.warning("%sBAD COMMAND: %s",LXP,serialCMD)
 			#TODO: escribir comando para limpiar el buffer serial
+		elif serialCMD[2:6] == "0x00":
+			  #no instruction sent to serial
+			logging.debug("%s%s",LXP,"No Serial CMD")
 		else:
 			logging.debug("%s%s",LXP,serialCMD)
 			serial_port.write(serialCMD)
