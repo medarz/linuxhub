@@ -91,6 +91,7 @@ def parse_message(topic, payload):
 				else:
 					return "CommandNotSupported"
 			else:
+				logging.debug("%sDevice -> LED",LXP)
 				return "CommandNotRecognized"
 		else:
 				return "DeviceNotSupported"
@@ -98,12 +99,14 @@ def parse_message(topic, payload):
 	###################################################################################
 	# ---------------- System Messages ------------------
 	else:
+		logging.debug("%s>%s<",LXP,message[3])
 		if message[3]=="config":
 			if message[5]=="request":
 				cmd=0x81
 			else:
+				logging.debug("%sConfig -> Request",LXP)
 				return "CommandNotRecognized"
-		if message[3]=="rule":
+		elif message[3]=="rule":
 			if message[4]=="cron" and message[5]=="add":
 				logging.info("%sRule Added",LXP)
 
@@ -122,8 +125,10 @@ def parse_message(topic, payload):
 				cron.write()
 
 			else:
+				logging.debug("%sRules -> Cron & Add",LXP)
 				return "CommandNotRecognized"
 		else:
+			logging.debug("%sSystem -> LAST",LXP)
 			return "CommandNotRecognized"
 	#Mensaje de sistema
 

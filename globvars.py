@@ -20,7 +20,6 @@ def comission():
 
 	#logging.info("%sSaving to database..",LXP)
 
-
 LXP = "LH > "
 APP = "AP > "
 
@@ -39,9 +38,9 @@ if lhu is None:
 #####################################
 #       Global Variables
 #####################################
-serialdev 		 = '/dev/ttyUSB0'
+serialdev 		 = '/dev/ttyS1'
 public_host	     = cfg['wan']['host'].encode("ascii")
-public_broker    = cfg['wan']['host'].encode("ascii") #mq / wan
+public_broker    = cfg['mq']['host'].encode("ascii") #mq / wan
 port      		 = cfg['mq']['port']		
 cmdACK 			 = True
 dbName			 = "local"
