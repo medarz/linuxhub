@@ -1,0 +1,11 @@
+###################################################################
+# Lee publicaciones de MQTT, interpreta y las envia mediante 
+# el puerto serial a un microcontrolador
+#
+# Autor: Mario Medina
+#
+
+02-Jul-2014 - Se agrega conexion con BD en Couch
+13-May-2014 - Se anexan mensajes en log
+11-Abr-2014 - se actualiza a Paho
+10-Abr-2012 - version inicial 
